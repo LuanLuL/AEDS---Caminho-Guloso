@@ -121,7 +121,6 @@ int main(){
                 break;
         }
     }while(resposta == false);
-    listaM =listaM;
     listaM.print();
     cout << "\n************* FIM *************\n\n";
     return 0;
