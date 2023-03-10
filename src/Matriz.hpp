@@ -11,21 +11,22 @@ class Matriz{
     private:
         Numero **matriz;
         Caminho sequencia;
-        int linha, coluna, tamanho;
+        int linha, coluna, tamanhoLinha, tamanhoColuna;
         Matriz *proximo;
         
     public:
         /*************************************************************** INICIO CONSTRUTORES */
         Matriz();
-        Matriz(int tamanhoMatriz);
+        Matriz(int numeroLinha, int numeroColuna);
 
         /*************************************************************** FINAL CONSTRUTORES */
 
         /*************************************************************** INICIO GETTERS AND SETTERS */
         Numero **getMatriz(); 
         void setMatriz(Numero **newMatriz);
-        int getTamanho();
-        void setTamanho(int newTamanho);
+        int getTamanhoLinha();
+        int getTamanhoColuna();
+        void setTamanho(int newTamanhoLinha, int newTamanhoColuna);
         int getLinha();
         void setLinha(int newLinha);
         int getColuna();

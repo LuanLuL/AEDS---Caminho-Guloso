@@ -2,17 +2,19 @@
 
 /******************************************************************************************** INICIO CONSTRUTORES */
 Matriz::Matriz(){
-    this->tamanho = 0;
+    this->tamanhoLinha = 0;
+    this->tamanhoColuna = 0;
     this->linha = 0;
     this->coluna = 0;
     this->proximo = NULL;
 }
 
-Matriz::Matriz(int tamanahoMatriz){
-    this->tamanho = tamanahoMatriz;
-    this->matriz = (Numero**) calloc(this->tamanho, sizeof(Numero*));
-    for(int i=0;i<this->tamanho;i++){
-        this->matriz[i] = (Numero*) calloc(this->tamanho, sizeof(Numero));
+Matriz::Matriz(int numeroLinha,  int numeroColuna){
+    this->tamanhoLinha = numeroLinha;
+    this->tamanhoColuna = numeroColuna;
+    this->matriz = (Numero**) calloc(this->tamanhoLinha, sizeof(Numero*));
+    for(int i=0;i<this->tamanhoLinha;i++){
+        this->matriz[i] = (Numero*) calloc(this->tamanhoColuna, sizeof(Numero));
     }
     this->linha = 0;
     this->coluna = 0;
@@ -30,15 +32,20 @@ void Matriz::setMatriz(Numero **newMatriz){
     this->matriz = newMatriz;
 }
 
-int Matriz::getTamanho(){
-    return this->tamanho;
+int Matriz::getTamanhoLinha(){
+    return this->tamanhoLinha;
 }
 
-void Matriz::setTamanho(int newTamanho){
-    this->tamanho = newTamanho;
-    this->matriz = (Numero**) calloc(this->tamanho, sizeof(Numero*));
-    for(int i=0;i<this->tamanho;i++){
-        this->matriz[i] = (Numero*) calloc(this->tamanho, sizeof(Numero));
+int Matriz::getTamanhoColuna(){
+    return this->tamanhoColuna;
+}
+
+void Matriz::setTamanho(int newTamanhoLinha, int newTamanhoColuna){
+     this->tamanhoLinha = newTamanhoLinha;
+    this->tamanhoColuna = newTamanhoColuna;
+    this->matriz = (Numero**) calloc(this->tamanhoLinha, sizeof(Numero*));
+    for(int i=0;i<this->tamanhoLinha;i++){
+        this->matriz[i] = (Numero*) calloc(this->tamanhoColuna, sizeof(Numero));
     }
     this->linha = 0;
     this->coluna = 0;
@@ -81,16 +88,16 @@ void Matriz::setProximo(Matriz *newProximo){
 /******************************************************************************************** INICIO METODOS */
 void Matriz::addNumber(int number){
     try{
-        if(this->linha == this->tamanho && this->coluna == this->tamanho){
+        if(this->linha == this->tamanhoLinha && this->coluna == this->tamanhoColuna){
 			throw "../Matriz.cpp::addNumberMatriz ---> Matriz cheia";
 		}
         Numero n(number);
         this->matriz[this->linha][this->coluna] = n;
-        if(this->coluna == this->tamanho-1){
+        if(this->coluna == this->tamanhoColuna-1){
             this->linha++;
             this->coluna = 0;
         }
-        else if(this->coluna != this->tamanho){
+        else if(this->coluna != this->tamanhoColuna-1){
             this->coluna++;
         }
     }
@@ -101,8 +108,8 @@ void Matriz::addNumber(int number){
 
 void Matriz::print(){
     cout << endl;
-    for(int i=0;i<this->tamanho;i++){
-        for(int j=0;j<this->tamanho;j++){
+    for(int i=0;i<this->tamanhoLinha;i++){
+        for(int j=0;j<this->tamanhoColuna;j++){
             cout << this->matriz[i][j].getValor() << " ";
         }
         cout << "\n";
@@ -116,7 +123,6 @@ void Matriz::print(){
 void Matriz::createCaminho(){
     int linhaAux = 0, colunaAux = 0;
     Numero number;
-
     do{
         number.setValor(this->matriz[linhaAux][colunaAux].getValor());
         this->sequencia.insertFinal(number);
@@ -137,7 +143,7 @@ void Matriz::createCaminho(){
                 colunaAux = colunaAux + 1;
             }
         }
-        else if(linhaAux == 0 && colunaAux == this->tamanho-1){ //       CANTO SUPERIOR DIREITO
+        else if(linhaAux == 0 && colunaAux == this->tamanhoColuna-1){ //       CANTO SUPERIOR DIREITO
             if((this->matriz[linhaAux+1][colunaAux].getValor() >= this->matriz[linhaAux+1][colunaAux-1].getValor() || this->matriz[linhaAux+1][colunaAux-1].getControl()) && this->matriz[linhaAux+1][colunaAux].getControl() == false){
                 //      MAIOR -> BAIXO
                 linhaAux = linhaAux +1;
@@ -148,11 +154,11 @@ void Matriz::createCaminho(){
                 colunaAux = colunaAux -1;
             }
         }
-        else if(linhaAux == this->tamanho-1 && colunaAux == 0){ //     CANTO INFERIOR ESQUERDO    
+        else if(linhaAux == this->tamanhoLinha-1 && colunaAux == 0){ //     CANTO INFERIOR ESQUERDO    
             //      SEGUE APENAS PARA A DIREITA
             colunaAux = colunaAux + 1;
         }
-        else if(linhaAux == this->tamanho-1 && colunaAux == this->tamanho){ //      CANTO INFERIOR DIREITO
+        else if(linhaAux == this->tamanhoLinha-1 && colunaAux == this->tamanhoColuna){ //      CANTO INFERIOR DIREITO
             //      FINALIZA O CAMINHO
         }
         else if(linhaAux == 0){ //      BORDA SUPERIOR
@@ -190,11 +196,11 @@ void Matriz::createCaminho(){
                 colunaAux = colunaAux + 1;
             }
         }
-        else if(linhaAux == this->tamanho-1){ //        BORDA INFERIOR
+        else if(linhaAux == this->tamanhoLinha-1){ //        BORDA INFERIOR
             //      SEGUE APENAS PARA A DIREITA
             colunaAux = colunaAux + 1;    
         }
-        else if(colunaAux == this->tamanho-1){ //        BORDA DIREITA
+        else if(colunaAux == this->tamanhoColuna-1){ //        BORDA DIREITA
             if((this->matriz[linhaAux+1][colunaAux].getValor() >= this->matriz[linhaAux+1][colunaAux-1].getValor() || this->matriz[linhaAux+1][colunaAux-1].getControl()) && (this->matriz[linhaAux+1][colunaAux].getValor() >= this->matriz[linhaAux][colunaAux-1].getValor() || this->matriz[linhaAux][colunaAux-1].getControl()) && this->matriz[linhaAux+1][colunaAux].getControl() == false){
                 //      MAIOR -> BAIXO
                 linhaAux = linhaAux +1;
@@ -233,7 +239,7 @@ void Matriz::createCaminho(){
                 colunaAux = colunaAux -1;
             }
         }
-    }while((linhaAux != this->tamanho-1) || (colunaAux != this->tamanho-1));
+    }while((linhaAux != this->tamanhoLinha-1) || (colunaAux != this->tamanhoColuna-1));
     number.setValor(this->matriz[linhaAux][colunaAux].getValor());
     this->sequencia.insertFinal(number);
 }

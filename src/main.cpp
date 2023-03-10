@@ -7,7 +7,7 @@
 
 using namespace std;
 
-ListMatrizes lerTxtP1(string txt){
+ListMatrizes lerTxt1(string txt){
     ListMatrizes returnListMatrizes;
     try{
         fstream inFile;
@@ -16,21 +16,26 @@ ListMatrizes lerTxtP1(string txt){
             throw "../main.cpp::lerTxt ---> Não foi possível abrir o arquivo de entrada";
         }
         string numberStr;
-        int aux = 0, numberInt, limite = 0;
+        int aux = 0, tamanhoLinha = 0, tamanhoColuna = 0, aux2 =0, numberInt, limite = 0;
         Matriz m;
         while (!inFile.eof()){
-            inFile >> numberStr;
             if(aux == 0){
-                aux = aux + 1;
-                numberInt = atoi(numberStr.c_str());
-                Matriz newM(numberInt);
+                getline(inFile, numberStr);
+                if(aux2 == 0){
+                    tamanhoLinha = atoi(&numberStr.at(0));
+                    tamanhoColuna = atoi(&numberStr.at(2));
+                    aux2 = aux2 + 1;
+                }
+                Matriz newM(tamanhoLinha, tamanhoColuna);
                 m = newM;
+                aux = aux + 1;
             }
             else{
+                inFile >> numberStr;
                 numberInt = atoi(numberStr.c_str());
                 m.addNumber(numberInt);
                 limite++;
-                if(limite == (m.getTamanho() * m.getTamanho())){
+                if(limite == (m.getTamanhoLinha() * m.getTamanhoColuna())){
                     aux = 0;
                     limite = 0;
                     m.createCaminho();
@@ -46,7 +51,7 @@ ListMatrizes lerTxtP1(string txt){
     return returnListMatrizes;
 }
 
-ListMatrizes lerTxtP2(string txt){
+ListMatrizes lerTxt2(string txt){
     ListMatrizes returnListMatrizes;
     try{
         fstream inFile;
@@ -55,16 +60,56 @@ ListMatrizes lerTxtP2(string txt){
             throw "../main.cpp::lerTxt ---> Não foi possível abrir o arquivo de entrada";
         }
         string numberStr;
-        int aux = 0, tamanho = 0, aux2 =0, numberInt, limite = 0;
+        int aux = 0, numberInt, limite = 0;
+        Matriz m;
+        while (!inFile.eof()){
+            inFile >> numberStr;
+            if(aux == 0){
+                aux = aux + 1;
+                numberInt = atoi(numberStr.c_str());
+                Matriz newM(numberInt, numberInt);
+                m = newM;
+            }
+            else{
+                numberInt = atoi(numberStr.c_str());
+                m.addNumber(numberInt);
+                limite++;
+                if(limite == (m.getTamanhoLinha() * m.getTamanhoColuna())){
+                    aux = 0;
+                    limite = 0;
+                    m.createCaminho();
+                    returnListMatrizes.insertFinal(m);
+                }
+            }
+        }
+        inFile.close();
+    }
+    catch(const char *msg){
+        cerr << "\n\nERRO...ERRO... " << msg << " ...ERRO...ERRO\n\n";
+    }
+    return returnListMatrizes;
+}
+
+ListMatrizes lerTxt3(string txt){
+    ListMatrizes returnListMatrizes;
+    try{
+        fstream inFile;
+        inFile.open(txt.c_str());
+        if(!inFile){
+            throw "../main.cpp::lerTxt ---> Não foi possível abrir o arquivo de entrada";
+        }
+        string numberStr;
+        int aux = 0, tamanhoLinha = 0, tamanhoColuna = 0, numberInt, limite = 0;
         Matriz m;
         while (!inFile.eof()){
             if(aux == 0){
                 getline(inFile, numberStr);
-                if(aux2 == 0){
-                    tamanho = atoi(&numberStr.at(0));
-                    aux2 = aux2 + 1;
+                if(numberStr.size() < 2){
+                    getline(inFile, numberStr);
                 }
-                Matriz newM(tamanho);
+                tamanhoLinha = atoi(&numberStr.at(0));
+                tamanhoColuna = atoi(&numberStr.at(2));
+                Matriz newM(tamanhoLinha, tamanhoColuna);
                 m = newM;
                 aux = aux + 1;
             }
@@ -73,7 +118,7 @@ ListMatrizes lerTxtP2(string txt){
                 numberInt = atoi(numberStr.c_str());
                 m.addNumber(numberInt);
                 limite++;
-                if(limite == (m.getTamanho() * m.getTamanho())){
+                if(limite == (m.getTamanhoLinha() * m.getTamanhoColuna())){
                     aux = 0;
                     limite = 0;
                     m.createCaminho();
@@ -93,35 +138,45 @@ int main(){
     setlocale(LC_ALL, "Portuguese");
     cout << "\n************* INICIO *************\n";
     ListMatrizes listaM;
-    string nomeArqTxtEntrada;
-    cout << "\nDigite o nome do arquivo de entrada (com extesão): ";
-    cin >> nomeArqTxtEntrada;
-    char padraoDinamico;
-    bool resposta = false;
+    int resposta = 0;
     do{
-        cout << "\nO arquivo de entrada está no padrão dinamico? [Y/N]";
-        cin >> padraoDinamico;
-        switch (padraoDinamico){
-            case 'Y':
-            case 'y':
+        cout << "\nAquivos disponiíveis:\n\n";
+        cout << "\t1 - input.data\n\t2 - input_2.data\n\t3 - input_3.data\n\t4 - Sair";
+        cout << "\n\nEscolha o arquivo de entrada: ";
+        cin >> resposta;
+        switch (resposta){
+            case 1:
             {
-                listaM = lerTxtP1(nomeArqTxtEntrada);
-                resposta = true;
+                listaM = lerTxt1("input.data");
+                listaM.print();
+                cout << "\n*********************************\n";
                 break;
             } 
-            case 'N':
-            case 'n':
+            case 2:
                 {
-                    listaM = lerTxtP2(nomeArqTxtEntrada);
-                    resposta = true;
+                    listaM = lerTxt2("input_2.data");
+                    listaM.print();
+                    cout << "\n*********************************\n";
                     break;
                 }
-            
+            case 3:
+                {
+                    listaM = lerTxt3("input_3.data");
+                    cout << "\n*********************************\n";
+                    listaM.print();
+                    break;
+                }
+            case 4:
+                {
+                    cout << "\nSaindo...";
+                    break;
+                }
             default:
+                 cout << "\nERRO...ERRO... Opção invalida ...ERRO...ERRO\n";
+                 cout << "\n*********************************\n";
                 break;
         }
-    }while(resposta == false);
-    listaM.print();
-    cout << "\n************* FIM *************\n\n";
+    }while(resposta != 4);
+    cout << "\n\n************* FIM *************\n\n";
     return 0;
 }
