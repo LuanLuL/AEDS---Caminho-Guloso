@@ -1,5 +1,5 @@
+# 📢 AEDS: Caminho Guloso   
 <section>
-    <h1>📢 AEDS: Caminho Guloso</h1>  
     <p>
         Criado em 10 de Março de 2023, o projeto <b>Caminho Guloso</b> foi desenvolvido em virtude de atender as demandas do curso de Algoritimo e Estrutura de Dados, ministrado pelo professor <a href="https://www.linkedin.com/in/michelpiressilva/?originalSubdomain=br">Michel Pires Da Silva</a> no Centro Federal de Educação Tecnológica de Minas Gerais (<a href="https://www.divinopolis.cefetmg.br/">CEFET-MG</a>).
     </p>
