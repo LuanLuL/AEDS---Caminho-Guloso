@@ -1,4 +1,4 @@
-# AEDS: O caminho guloso
+# 💾 AEDS: O caminho guloso
 <section>
     <h3>Problematica</h3>
     <p>
@@ -7,6 +7,6 @@
     <ul>
         <li>Revisar os conceitos de programação básica com matrizes;</li>
         <li>Começar um cenário de questionamentos para identificar se realmente a implementação realizada é a forma otimizada;</li>
-        <li>iniciar uma busca para uma boa estruturação de código.</li>
+        <li>Iniciar uma busca para uma boa estruturação de código.</li>
     </ul>
 </section>
