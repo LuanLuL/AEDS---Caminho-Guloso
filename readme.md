@@ -18,27 +18,27 @@
 <section>
     <h2>🚧 Regras</h2>
     <p>
-        Ao se tratar dos arquivos de entrada, devem ser seguidas algumas regras preestabelecidas em ralação a como interagir sobre tal estrutura. Nesse sentido, visando abranger o problema de forma mais generalizada, os arquivos de entrada suportam qualquer matriz de tamanho MxN, porém, tais dados devem ser organizados de formas bem específicas.
+        Ao se tratar das matrizes, o algoritimo deve enumerá-las, de forma a deixa-las organizadas para o processamento. Após isso, partindo da primeira matriz, iniciar o percurso do caminho guloso do primeiro elemento até que alcance o ultimo. Feito isso, verificar se existem mais matrizes e caso haja realizar o mesmo processamento para todas.
     </p>
     <p>
-        Ademais, no que se refere as matrizes, o algoritimo deve enumerá-las, de forma a deixa-las organizadas para o processamento. Após isso, partindo da primeira matriz, iniciar o percurso do caminho guloso do primeiro elemento até que alcance o ultimo. Feito isso, verificar se existem mais matrizes e caso haja realizar o mesmo processamento para todas.
+        Ademais, no que se refere aos arquivos de entrada, deve-se seguir algumas regras preestabelecidas em ralação a como construir tais estruturas de dados. Nesse sentido, visando abranger o problema de forma mais generalizada, os arquivos de entrada suportam qualquer matriz de tamanho MxN, porém, tais dados devem ser organizados de formas bem específicas.
     </p>
     <div>
         <h3>📨 Arquivos de entrada</h3>
         <p>
-            Os arquivos utilizados para armazenar as matrizes devem ser do tipo <strong>Arquivo DATA</strong> (.data) ou <strong>Documento de texto</strong> (.txt). Estes por sua vez podem ser organizados de acordo com a necessidade do usuário em três possíveis modelos: I) Matrizes quadradas, II) Matrizes quadradas variadas e III) Matrizes dinâmicas.
+            Os arquivos utilizados para armazenar as matrizes devem ser do tipo <strong>Arquivo DATA</strong> (.data) ou <strong>Documento de texto</strong> (.txt). Estes, por sua vez, podem armazenar a quantidade de matrizes que o usuário desejar, desde que seus elementos sejam organizados de acordo com três possíveis modelos: I) Matrizes quadradas, II) Matrizes quadradas variadas e III) Matrizes dinâmicas.
         </p>
         <ol type="i">
             <li>
-                <h4><i>Matrizes quadradas:<i></h4>
+                <h4><i>Matrizes quadradas: <i></h4>
+                <span>Nesse padrão de entrada o sistema é capaz de incorporar apenas matrizes quadradas no tamanho NxN. Ou seja, todas as matrizes armazenadas nesse podelo devem possuir o mesmo numero de linhas e colunas.<span>
+            </li>
+            <li>
+                <h4><i>Matrizes quadradas variadas: <i></h4>
                 <p></p>
             </li>
             <li>
-                <h4><i>Matrizes quadradas variadas:<i></h4>
-                <p></p>
-            </li>
-            <li>
-                <h4><i>Matrizes dinâmicas:<i></h4>
+                <h4><i>Matrizes dinâmicas: <i></h4>
                 <p></p>
             </li>
         </ol>
