@@ -116,9 +116,8 @@
     </p>
     <hr size="0.5">
     <div style="margin: 30px 30px 30px 30px; font-size: 30px;">
-    <p>
-        <b>Feito por Luan Gonçalves Santos
-        </b>
-    </p>
+        <p>
+            <b>Feito por Luan Gonçalves Santos</b>
+        </p>
     </div>
 </section>
