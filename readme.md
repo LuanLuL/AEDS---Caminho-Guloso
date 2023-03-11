@@ -26,7 +26,7 @@
     <div>
         <h3>🏃‍♂️💨 Caminhando nas matrizes</h3>
         <p>
-            O percurso realizado dentro das matrizes se basea nos conceitos do caminho guloso. Nesse sentido, para caminhar você deve sempre optar pelo valor da próxima casa, valor esse que deve ser o maior dentre eles. Caso haja empate entre casas, crie uma regra para adotar sempre uma mesma decisão de caminhamento. Dando continuidade, as regras para se considerar qual é proxíma casa a ser seguida são:
+            O percurso realizado dentro das matrizes se basea nos conceitos do caminho guloso. Nesse sentido, para caminhar você deve sempre optar pelo valor da próxima casa, valor esse que deve ser o maior dentre eles. Caso haja empate entre casas, crie uma regra para adotar sempre uma mesma decisão de caminhamento. Dando continuidade, as regras para se considerar qual é a proxíma casa a ser seguida são:
         </p>
         <ol type="a">
             <li>Avançar para a próxima coluna;</li>
@@ -35,10 +35,10 @@
             <li>Ir em diagonal para baixo.</li>
         </ol>
         <p>
-            Se a contagem chegar na ultima linha, independentemente em qual valor esteja coluna, o algoritimo é obrigado a andar somente pada a direita. Além disso, é importante ressaltar que todas essas regras só se aplicam se a casa (posição i,j da matriz) ainda não tenha sido descoberta. Portanto, sistema deve desconsiderar as posições já processada.
+            Se a contagem chegar na ultima linha, independentemente em qual valor esteja a coluna, o algoritimo é obrigado a andar somente para a direita até que chegue ao fim. Além disso, é importante ressaltar que todas essas regras só se aplicam se a casa (posição i,j da matriz) ainda não tenha sido descoberta. Ou seja, o sistema tem que desconsiderar as posições já processada. Por fim, quando a contagem alcançar a última linha e coluna da matriz simultaneamente o percurso é finalizado.
         </p>
         <p>
-            Quando a contagem alcançar a última linha e coluna da matriz simultaneamente o percurso é finalizado. Por fim, apresente ao usuário qual foi o caminho adotado e qual a soma obtida do caminho realizado. Este processo deve ser feito para todas as matrizes existentes no arquivo de entrada.
+             Após o caminhamento guloso, apresente ao usuário qual foi o caminho adotado e qual a soma obtida do caminho realizado. Este processo deve ser feito para todas as matrizes existentes no arquivo de entrada.
         </p>
     </div>
     <div>
