@@ -94,15 +94,15 @@
         <!-- <code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code>
         <code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}</code>
         <code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code> -->
-    <div style="text-align: center;">
+    <div>
         <h3>💍 Engenharia do sistema</h3>
         <p>
         Visando armazenar os dados selecionados no arquivo de entrada, o sistema é composto por quatro classes: ListMatrizes, Matriz, Caminho e Numero. Observe mais na Figura 1.  
         </p>
-        <figure>
+        <font align="center"><figure>
             <img src="img/diagrama_classes.png">
             <figcaption><strong>Figura 1:</strong> Diagrama de classes do sistema<figcaption>
-        </figure>
+        </figure></font>
         <p></p>
     </div>
     <div>
