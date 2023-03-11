@@ -29,12 +29,17 @@
             O percurso realizado dentro das matrizes se basea nos conceitos do caminho guloso. Nesse sentido, para caminhar você deve sempre optar pelo valor da próxima casa, valor esse que deve ser o maior dentre eles. Caso haja empate entre casas, crie uma regra para adotar sempre uma mesma decisão de caminhamento. Dando continuidade, as regras para se considerar qual é proxíma casa a ser seguida são:
         </p>
         <ol type="a">
-            <li>avançar para a próxima coluna;</li>
-            <li>retroceder para coluna anterior;</li>
-            <li>saltar para a linha de baixo;</li>
-            <li>ir em diagonal para baixo.</li>
+            <li>Avançar para a próxima coluna;</li>
+            <li>Retroceder para coluna anterior;</li>
+            <li>Saltar para a linha de baixo;</li>
+            <li>Ir em diagonal para baixo.</li>
         </ol>
-        <p> Todas essas regras só se aplicam se a casa (posição i,j da matriz) ainda não tenha sido descoberta ou já processada.</p>
+        <p>
+            Se a contagem chegar na ultima linha, independentemente em qual valor esteja coluna, o algoritimo é obrigado a andar somente pada a direita. Além disso, é importante ressaltar que todas essas regras só se aplicam se a casa (posição i,j da matriz) ainda não tenha sido descoberta. Portanto, sistema deve desconsiderar as posições já processada.
+        </p>
+        <p>
+            Quando a contagem alcançar a última linha e coluna da matriz simultaneamente o percurso é finalizado. Por fim, apresente ao usuário qual foi o caminho adotado e qual a soma obtida do caminho realizado. Este processo deve ser feito para todas as matrizes existentes no arquivo de entrada.
+        </p>
     </div>
     <div>
         <h3>📨 Arquivos de entrada</h3>
@@ -86,7 +91,9 @@
 </section>
 <section>
     <h2>✅ Solução proposta</h2>
-    <p></p>
+    <p>
+        opa
+    </p>
 </section>
 <section>
     <h2>🎞 Processamento</h2>
