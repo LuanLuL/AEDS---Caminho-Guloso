@@ -30,15 +30,15 @@
         </p>
         <ol type="i">
             <li>
-                <h4 style="font-style: italic;">Matrizes quadradas:</h4>
+                <h4><i>Matrizes quadradas:<i></h4>
                 <p></p>
             </li>
             <li>
-                <h4 style="font-style: italic;">Matrizes quadradas variadas:</h4>
+                <h4><i>Matrizes quadradas variadas:<i></h4>
                 <p></p>
             </li>
             <li>
-                <h4 style="font-style: italic;">Matrizes dinâmicas:</h4>
+                <h4><i>Matrizes dinâmicas:<i></h4>
                 <p></p>
             </li>
         </ol>
