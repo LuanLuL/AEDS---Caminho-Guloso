@@ -38,7 +38,7 @@
             Se a contagem chegar na ultima linha, independentemente em qual valor esteja a coluna, o algoritimo é obrigado a andar somente para a direita até que chegue ao fim. Além disso, é importante ressaltar que todas essas regras só se aplicam se a casa (posição i,j da matriz) ainda não tenha sido descoberta. Ou seja, o sistema tem que desconsiderar as posições já processada. Por fim, quando a contagem alcançar a última linha e coluna da matriz simultaneamente o percurso é finalizado.
         </p>
         <p>
-             Após o caminhamento guloso, apresente ao usuário qual foi o caminho adotado e qual a soma obtida do caminho realizado. Este processo deve ser feito para todas as matrizes existentes no arquivo de entrada.
+            Após o caminhamento guloso, apresente ao usuário qual foi o caminho adotado e qual a soma obtida do caminho realizado. Este processo deve ser feito para todas as matrizes existentes no arquivo de entrada.
         </p>
     </div>
     <div>
@@ -56,9 +56,8 @@
                     Para representar as matrizes quadradas, é preciso declarar seus tamanhos fixos na primeira linha do arquivo de entrada. A seguir, na segunda linha de registro, é inserido os números da matriz,onde cada elemento deve ser separado por um espaço. Nesse sentido, a quantidade de números deve respeitar o tamanho (N N) informado na primeira linha do arquivo de entrada. Após isso, para armazenar outras matrizes basta separa-las por uma linha em branco.
                 </p>
                 <p>
-                    Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada de tamanho 7X7 no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input.data">input.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp.
+                    Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada de tamanho 7X7 no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input.data">input.data</a>. 
                 </p>
-                <code>ListMatrizes lerMatrizesQuadradas(string txt){...</code>
             </li>
             <li>
                 <h4><i>Matrizes quadradas variadas: </i></h4>
@@ -69,9 +68,8 @@
                     Para inserir as matrizes quadradas variadas, é preciso declarar o número de seu tamanho na linha anterior à matriz. A seguir, na próxima linha de registro, é dado entrada aos números, onde cada elemento deve ser separado por um espaço. Nesse sentido, a quantidade de números deve respeitar o tamanho (N) informado para cada matriz. Após isso, para guardar mais matrizes basta repetir o esquema. Atenção, não pode haver nenhuma linha em branco nesse tipo de arquivo de entrada. 
                 </p>
                 <p>
-                    Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada variada no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_2.data">input_2.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp.
+                    Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada variada no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_2.data">input_2.data</a>.
                 </p>
-                <code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...</code>
             </li>
             <li>
                 <h4><i>Matrizes dinâmicas: </i></h4>
@@ -82,9 +80,9 @@
                     Para armazenar as matrizes dinâmica, é preciso declarar, respectivamente, o número de linhas e colunas na linha anterior à matriz. Após isso, na próxima linha de registro, é dado colocado os números, onde cada elemento deve ser separado por um espaço. Lembre-se que a quantidade de números deve respeitar o tamanho (M N) informado para cada matriz. Caso seja necessário mais de uma matriz basta repetir o esquema. Atenção, não pode haver nenhuma linha em branco nesse tipo de arquivo de entrada.                    
                 </p>
                 <p>
-                    Segue o exemplo de como criar um arquivo de entrada para matrizes dinâmica no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_3.data">input_3.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp.
+                    Segue o exemplo de como criar um arquivo de entrada para matrizes dinâmica no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_3.data">input_3.data</a>.
                 </p>
-                <code>ListMatrizes lerMatrizesDinamicas(string txt){...</code>
+                
             </li>
         </ol>
     </div>
@@ -92,8 +90,11 @@
 <section>
     <h2>✅ Solução proposta</h2>
     <p>
-        opa
+        Depois de compreendido a problemática e suas respectivas regras, a estratégia de resolução apresentada se baseia em dividir o problema em partes. Primeiramente, é necessario criar uma forma organizada de armazenar as matrizes dentro do programa, na qual é empregado os conceitos da Orientação a Objetos. Em seguida é preciso estabelecer meios sucintos para efetivar a leitura dos arquivos de entrada; três métodos foram desenvolvidos para satisfazer essa demanda. Por último e mais importante, o caminho guloso de cada matriz deve ser mostrado juntamente com a soma final dos elementos percorridos. 
     </p>
+        <!-- <code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code>
+        <code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}</code>
+        <code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code> -->
 </section>
 <section>
     <h2>🎞 Processamento</h2>
@@ -129,6 +130,13 @@
     <p>
         O menu de opções é bem simples. Nele é possível realizar a leitura de três Arquivos DATA, cada arquivo de entrada está seguindo um dos diferentes modelos. Fique avontade para altera-los, mas lembre-se, é fundamental que os documentos sigam pelo menos um dos padrões estabelecido no intuito de não comprometer sua leitura.
     </p>
+</section>
+<section>
+    <h2>🙌 Resultado Final</h2>
+    <p>
+    </p>
+</section>
+<section>
     <hr size="0.5">
     <div style="margin: 30px 30px 30px 30px; font-size: 30px;">
         <p>
