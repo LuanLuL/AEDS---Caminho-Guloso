@@ -101,7 +101,7 @@
         </p>
         <p align="center">
             <img style="text-align: center;" src="img/diagrama_classes.png">
-            <br><br><br><strong>Figura 1:</strong> Diagrama de classes do sistema
+            <br><br><strong>Figura 1:</strong> Diagrama de classes do sistema
         </p>
     </div>
     <div>
