@@ -35,12 +35,12 @@
                     Nesse padrão de entrada o sistema é capaz de incorporar apenas matrizes quadradas no tamanho NxN. Ou seja, todas as matrizes armazenadas nesse modelo devem possuir o mesmo numero de linhas e colunas.
                 </p>
                 <p>
-                    Para representar as matrizes quadradas, é preciso declarar seus tamanhos fixos na primeira linha do arquivo de entrada. A seguir, na segunda linha de registro, é dado a entrada nos números da matriz, onde cada elemento deve ser separado por um espaço. Nesse sentido, a quantidade de números deve respeitar o tamanho (N N) informado na primeira linha do arquivo de entrada. Após isso, para guardar armazenar outras matrizes basta separa-las por uma linha em branco.
+                    Para representar as matrizes quadradas, é preciso declarar seus tamanhos fixos na primeira linha do arquivo de entrada. A seguir, na segunda linha de registro, é inserido os números da matriz,onde cada elemento deve ser separado por um espaço. Nesse sentido, a quantidade de números deve respeitar o tamanho (N N) informado na primeira linha do arquivo de entrada. Após isso, para armazenar outras matrizes basta separa-las por uma linha em branco.
                 </p>
                 <p>
                     Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada de tamanho 7X7 no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input.data">input.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp.
-                    <code>ListMatrizes lerMatrizesQuadradas(string txt){...</code>
                 </p>
+                <code>ListMatrizes lerMatrizesQuadradas(string txt){...</code>
             </li>
             <li>
                 <h4><i>Matrizes quadradas variadas: </i></h4>
@@ -48,7 +48,7 @@
                     Esse modelo também sustenta a entrada matrizes quadradas no tamanho NxN, entretanto, diferente do primeiro padrão de entrada, neste cada matriz pode ter seu próprio tamanho. Ou seja, todas as matrizes armazenadas nesse modelo são quadradas, mas pode-se armazenar matrizes com dimensões distintas umas das outras.
                 </p>
                 <p>
-                    Para representar as matrizes quadradas variadas, é preciso declarar seus tamanhos fixos na primeira linha do arquivo de entrada. A seguir, na segunda linha de registro, é dado a entrada nos números da matriz, onde cada elemento deve ser separado por um espaço. Nesse sentido, a quantidade de números deve respeitar o tamanho (N N) informado na primeira linha do arquivo de entrada. Após isso, para guardar armazenar outras matrizes basta separa-las por uma linha em branco.
+                    Para inserir as matrizes quadradas variadas, é preciso declarar o número de seu tamanho na linha anterior à matriz. A seguir, na próxima linha de registro, é dado entrada aos números, onde cada elemento deve ser separado por um espaço. Nesse sentido, a quantidade de números deve respeitar o tamanho (N) informado para cada matriz. Após isso, para guardar mais matrizes basta repetir o esquema. Atenção, não pode haver nenhuma linha em branco nesse tipo de arquivo de entrada. 
                 </p>
                 <p>
                     Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada variada no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_2.data">input_2.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp.
@@ -57,7 +57,16 @@
             </li>
             <li>
                 <h4><i>Matrizes dinâmicas: </i></h4>
-                <p></p>
+                <p>
+                    Sendo o modelo mais completo, o terceiro padrão de entrada consegue ler matrizes dinâmicas de tamanho MxN. Ou seja, cada matriz pode ter seu respectivo número de linhas e colunas. Dessa forma o arquivo de dados é capaz de armazenar qualquer matriz que o usuário deseje incorporar no sistema.
+                </p>
+                <p>
+                    Para armazenar as matrizes dinâmica, é preciso declarar, respectivamente, o número de linhas e colunas na linha anterior à matriz. Após isso, na próxima linha de registro, é dado colocado os números, onde cada elemento deve ser separado por um espaço. Lembre-se que a quantidade de números deve respeitar o tamanho (M N) informado para cada matriz. Caso seja necessário mais de uma matriz basta repetir o esquema. Atenção, não pode haver nenhuma linha em branco nesse tipo de arquivo de entrada.                    
+                </p>
+                <p>
+                    Segue o exemplo de como criar um arquivo de entrada para matrizes dinâmica no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_3.data">input_3.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp.
+                </p>
+                <code>ListMatrizes lerMatrizesDinamicas(string txt){...</code>
             </li>
         </ol>
     </div>
