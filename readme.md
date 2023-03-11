@@ -99,9 +99,9 @@
         <p>
         Visando armazenar os dados selecionados no arquivo de entrada, o sistema é composto por quatro classes: ListMatrizes, Matriz, Caminho e Numero. Observe mais na Figura 1.  
         </p>
-        <figure style="text-align: center;">
+        <figure>
             <img src="img/diagrama_classes.png">
-            <figcaption>
+            <figcaption style="margin-top: 20px; text-align: center;">
                 <strong>Figura 1:</strong> Diagrama de classes do sistema
             <figcaption>
         </figure>
