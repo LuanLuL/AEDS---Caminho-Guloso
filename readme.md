@@ -82,7 +82,6 @@
                 <p>
                     Segue o exemplo de como criar um arquivo de entrada para matrizes dinâmica no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_3.data">input_3.data</a>.
                 </p>
-                
             </li>
         </ol>
     </div>
