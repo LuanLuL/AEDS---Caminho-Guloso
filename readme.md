@@ -96,7 +96,7 @@
         <code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code> -->
     <div>
         <h3>💍 Engenharia do sistema</h3>
-        <img src="img/diagrama_classes.png">
+        <img src="img/diagrama_classes.png" style="text-align: center;">
         <p></p>
     </div>
     <div>
