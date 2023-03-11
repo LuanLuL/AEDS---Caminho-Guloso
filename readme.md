@@ -18,12 +18,15 @@
 <section>
     <h2>🚧 Regras</h2>
     <p>
-        Ao se tratar dos arquivos de entrada, devem ser seguidas algumas regras preestabelecidas em ralação a como interagir sobre tal estrutura. Nesse sentido, visando abranger o problema de forma mais generalizada, os arquivos de entrada suportam qualquer matriz de tamanho MxN, porém, tais dados devem ser organizados de formas muito especificas.
+        Ao se tratar dos arquivos de entrada, devem ser seguidas algumas regras preestabelecidas em ralação a como interagir sobre tal estrutura. Nesse sentido, visando abranger o problema de forma mais generalizada, os arquivos de entrada suportam qualquer matriz de tamanho MxN, porém, tais dados devem ser organizados de formas bem específicas.
     </p>
     <p>
         Ademais, no que se refere as matrizes, o algoritimo deve enumerá-las, de forma a deixa-las organizadas para o processamento. Após isso, partindo da primeira matriz, iniciar o percurso do caminho guloso do primeiro elemento até que alcance o ultimo. Feito isso, verificar se existem mais matrizes e caso haja realizar o mesmo processamento para todas.
     </p>
     <div>
         <h3>📨 Arquivos de entrada</h3>
+        <p>
+            Os arquivos utilizados para armazenar as matrizes devem ser do tipo <stronger>Arquivo DATA</stronger> (.data) ou <stronger>Documento de texto</stronger> (.txt)
+        </p>
     </div>
 </section>
