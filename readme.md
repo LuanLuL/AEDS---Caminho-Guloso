@@ -52,7 +52,7 @@
                 <p>
                     Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada variada no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_2.data">input_2.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp.
                 </p>
-                <code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...</code>
+                <br><code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...</code>
             </li>
             <li>
                 <h4><i>Matrizes dinâmicas: </i></h4>
