@@ -97,6 +97,19 @@
         <code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code> -->
     <div>
         <h3>💍 Engenharia do sistema</h3>
+        <p></p>
+    </div>
+    <div>
+        <h3>📜 Selecionando os dados</h3>
+        <p></p>
+    </div>
+    <div>
+        <h3>👨‍💻 Configurações do caminho guloso</h3>
+        <p></p>
+    </div>
+    <div>
+        <h3></h3>
+        <p></p>
     </div>
 </section>
 <section>
