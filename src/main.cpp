@@ -140,7 +140,7 @@ int main(){
     ListMatrizes listaM;
     int resposta = 0;
     do{
-        cout << "\nAquivos disponiíveis:\n\n";
+        cout << "\nAquivos disponíveis:\n\n";
         cout << "\t1 - input.data\n\t2 - input_2.data\n\t3 - input_3.data\n\t4 - Sair";
         cout << "\n\nEscolha o arquivo de entrada: ";
         cin >> resposta;
