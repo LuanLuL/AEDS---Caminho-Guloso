@@ -99,7 +99,7 @@
         </li>
     </ul>
     <p>
-        Por fim, para que o processamento do algoritimo seja feito, é necessário o entendimento do menu de opções existente no algoritimo: 
+        Por fim, para que o processamento do algoritimo seja feito, é necessário o entendimento do menu de opções existente: 
         <pre>
             Aquivos disponíveis:<br>
                 1 - input.data
@@ -115,7 +115,7 @@
     <hr size="0.5">
     <div style="margin: 30px 30px 30px 30px; font-size: 30px;">
         <p>
-            <b>Feito por Luan Gonçalves Santos</b>
+            Feito por <b>Luan Gonçalves Santos</b>.
         </p>
     </div>
 </section>
