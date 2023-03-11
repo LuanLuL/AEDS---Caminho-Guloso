@@ -24,6 +24,9 @@
         Ademais, no que se refere aos arquivos de entrada, deve-se seguir algumas regras preestabelecidas em ralação a como construir tais estruturas de dados. Nesse sentido, visando abranger o problema de forma mais generalizada, os arquivos de entrada suportam qualquer matriz de tamanho MxN, porém, tais dados devem ser organizados de formas bem específicas.
     </p>
     <div>
+        <h3>🏃‍♂️💨 Caminhando nas matrizes</h3>
+    </div>
+    <div>
         <h3>📨 Arquivos de entrada</h3>
         <p>
             Os arquivos utilizados para armazenar as matrizes devem ser do tipo <strong>Arquivo DATA</strong> (.data) ou <strong>Documento de texto</strong> (.txt). Estes, por sua vez, podem armazenar a quantidade de matrizes que o usuário desejar, desde que seus elementos sejam organizados de acordo com três possíveis modelos: I) Matrizes quadradas, II) Matrizes quadradas variadas e III) Matrizes dinâmicas.
@@ -70,4 +73,7 @@
             </li>
         </ol>
     </div>
+</section>
+<section>
+    <h2>✅ Solução<h2>
 </section>
