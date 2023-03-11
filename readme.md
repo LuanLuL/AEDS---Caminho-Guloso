@@ -159,7 +159,7 @@
 </section>
 <section>
     <hr size="0.5">
-    <div style="margin: 30px 30px 30px 30px; font-size: 30px; text-align: center;">
+    <div>
         <p>
             Feito por <b>Luan Gonçalves Santos</b>.
         </p>
