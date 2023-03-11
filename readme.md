@@ -38,7 +38,8 @@
                     Para representar as matrizes quadradas, é preciso declarar seus tamanhos fixos na primeira linha do arquivo de entrada. A seguir, na segunda linha de registro, é dado a entrada nos números da matriz, onde cada elemento deve ser separado por um espaço. Nesse sentido, a quantidade de números deve respeitar o tamanho (N N) informado na primeira linha do arquivo de entrada. Após isso, para guardar armazenar outras matrizes basta separa-las por uma linha em branco.
                 </p>
                 <p>
-                    Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada de tamanho 7X7 no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input.data">input.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp <code>ListMatrizes lerMatrizesQuadradas(string txt){...</code>.
+                    Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada de tamanho 7X7 no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input.data">input.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp.
+                    <code>ListMatrizes lerMatrizesQuadradas(string txt){...</code>
                 </p>
             </li>
             <li>
@@ -52,7 +53,7 @@
                 <p>
                     Segue o exemplo de como criar um arquivo de entrada para uma matriz quadrada variada no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_2.data">input_2.data</a>. Para visualizar o método de leitura desse modelo de input acesse o main.cpp.
                 </p>
-                <br><code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...</code>
+                <code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...</code>
             </li>
             <li>
                 <h4><i>Matrizes dinâmicas: </i></h4>
