@@ -25,6 +25,16 @@
     </p>
     <div>
         <h3>🏃‍♂️💨 Caminhando nas matrizes</h3>
+        <p>
+            O percurso realizado dentro das matrizes se basea nos conceitos do caminho guloso. Nesse sentido, para caminhar você deve sempre optar pelo valor da próxima casa, valor esse que deve ser o maior dentre eles. Caso haja empate entre casas, crie uma regra para adotar sempre uma mesma decisão de caminhamento. Dando continuidade, as regras para se considerar qual é proxíma casa a ser seguida são:
+        </p>
+        <ol type="a">
+            <li>avançar para a próxima coluna;</li>
+            <li>retroceder para coluna anterior;</li>
+            <li>saltar para a linha de baixo;</li>
+            <li>ir em diagonal para baixo.</li>
+        </ol>
+        <p> Todas essas regras só se aplicam se a casa (posição i,j da matriz) ainda não tenha sido descoberta ou já processada.</p>
     </div>
     <div>
         <h3>📨 Arquivos de entrada</h3>
