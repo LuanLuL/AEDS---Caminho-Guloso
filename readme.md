@@ -86,7 +86,7 @@
     <ul>
         <li>
             <p>
-                C++ é uma linguagem de programação orientada a objetos (POO), em código aberto (open source), multiplataforma e multi-paradigma. É usada tanto para comunicação em máquinas quanto para desenvolvimento de softwares acadêmicos e corporativos, jogos, edição de imagens, fotos e vídeos, entre outras opções - <a href="https://cplusplus.com/doc/tutorial/" target="_blank">C++</a>.
+                C++ é uma linguagem de programação orientada a objetos (POO), em código aberto (open source), multiplataforma e multi-paradigma. É usada tanto para comunicação em máquinas quanto para desenvolvimento de softwares acadêmicos e corporativos, jogos, edição de imagens, fotos e vídeos, entre outras opções. É considerado uma das linguagens de programação mais rapidas dos mundo — <a href="https://cplusplus.com/doc/tutorial/" target="_blank">C++</a>.
             </p>
         </li>
         <li>    
@@ -110,7 +110,7 @@
         </pre>
     </p>
     <p>
-        Nesse contexto, é fundamental que os documentos sigam pelo menos um dos padrões estabelecido no o intuito de não comprometer sua leitura.
+        O menu de opções é bem simples. Nele é possível realizar a leitura de três Arquivos DATA, cada arquivo de entrada está seguindo um dos diferentes modelos. Fique avontade para altera-los, mas lembre-se, é fundamental que os documentos sigam pelo menos um dos padrões estabelecido no intuito de não comprometer sua leitura.
     </p>
     <hr size="0.5">
     <div style="margin: 30px 30px 30px 30px; font-size: 30px;">
