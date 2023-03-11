@@ -26,7 +26,7 @@
     <div>
         <h3>📨 Arquivos de entrada</h3>
         <p>
-            Os arquivos utilizados para armazenar as matrizes devem ser do tipo <strong>Arquivo DATA</strong> (.data) ou <strong>Documento de texto</strong> (.txt). Estes por sua vez podem ser organizados de acordo com a necessidade do usuário em três possíveis modelos: i) Matrizes quadradas, ii) Matrizes quadradas variadas e iii) Matrizes dinâmicas.
+            Os arquivos utilizados para armazenar as matrizes devem ser do tipo <strong>Arquivo DATA</strong> (.data) ou <strong>Documento de texto</strong> (.txt). Estes por sua vez podem ser organizados de acordo com a necessidade do usuário em três possíveis modelos: I) Matrizes quadradas, II) Matrizes quadradas variadas e III) Matrizes dinâmicas.
         </p>
         <ol type="i">
             <li>
