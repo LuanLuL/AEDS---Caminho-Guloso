@@ -7,7 +7,7 @@
 
 using namespace std;
 
-ListMatrizes lerTxt1(string txt){
+ListMatrizes lerMatrizesQuadradas(string txt){
     ListMatrizes returnListMatrizes;
     try{
         fstream inFile;
@@ -51,7 +51,7 @@ ListMatrizes lerTxt1(string txt){
     return returnListMatrizes;
 }
 
-ListMatrizes lerTxt2(string txt){
+ListMatrizes lerMatrizesQuadradasVariadas(string txt){
     ListMatrizes returnListMatrizes;
     try{
         fstream inFile;
@@ -90,7 +90,7 @@ ListMatrizes lerTxt2(string txt){
     return returnListMatrizes;
 }
 
-ListMatrizes lerTxt3(string txt){
+ListMatrizes lerMatrizesDinamicas(string txt){
     ListMatrizes returnListMatrizes;
     try{
         fstream inFile;
@@ -147,21 +147,21 @@ int main(){
         switch (resposta){
             case 1:
             {
-                listaM = lerTxt1("input.data");
+                listaM = lerMatrizesQuadradas("input.data");
                 listaM.print();
                 cout << "\n*********************************\n";
                 break;
             } 
             case 2:
                 {
-                    listaM = lerTxt2("input_2.data");
+                    listaM = lerMatrizesQuadradasVariadas("input_2.data");
                     listaM.print();
                     cout << "\n*********************************\n";
                     break;
                 }
             case 3:
                 {
-                    listaM = lerTxt3("input_3.data");
+                    listaM = lerMatrizesDinamicas("input_3.data");
                     cout << "\n*********************************\n";
                     listaM.print();
                     break;
