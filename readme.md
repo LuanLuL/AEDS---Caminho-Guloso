@@ -78,7 +78,7 @@
     <h2>✅ Solução proposta<h2>
 </section>
 <section>
-    <h3>🧮 Processamento</h3>
+    <h2>🧮 Processamento</h2>
     <p>
         Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado de três principais tecnologias: Linguagem de Programação C++, Visual Studio Code e WSL:Ubunto
     </p>
