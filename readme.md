@@ -101,9 +101,9 @@
         </p>
         <center><figure>
             <img src="img/diagrama_classes.png">
-            <figcaption>
+            <!-- <figcaption>
                 <strong>Figura 1:</strong> Diagrama de classes do sistema
-            </figcaption>
+            </figcaption> -->
         </figure></center>
         <p></p>
     </div>
