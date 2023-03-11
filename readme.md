@@ -26,7 +26,7 @@
     <div>
         <h3>📨 Arquivos de entrada</h3>
         <p>
-            Os arquivos utilizados para armazenar as matrizes devem ser do tipo <stronger>Arquivo DATA</stronger> (.data) ou <stronger>Documento de texto</stronger> (.txt)
+            Os arquivos utilizados para armazenar as matrizes devem ser do tipo <strong>Arquivo DATA</strong> (.data) ou <strong>Documento de texto</strong> (.txt)
         </p>
     </div>
 </section>
