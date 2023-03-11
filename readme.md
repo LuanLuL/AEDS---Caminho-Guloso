@@ -1,7 +1,7 @@
  <section>   
     <h1>📢 AEDS: Caminho Guloso</h1>   
     <p>
-        Criado em Março de 2023, o projeto <b>Caminho Guloso</b> foi desenvolvido em virtude de atender as demandas do curso de Algoritimo e Estrutura de Dados, ministrado pelo professor <a href="https://www.linkedin.com/in/michelpiressilva/?originalSubdomain=br">Michel Pires Da Silva</a> no Centro Federal de Educação Tecnológica de Minas Gerais (<a href="https://www.divinopolis.cefetmg.br/">CEFET-MG</a>).
+        Criado em Março de 2023, o projeto <strong>Caminho Guloso</strong> foi desenvolvido em virtude de atender as demandas do curso de Algoritimo e Estrutura de Dados, ministrado pelo professor <a href="https://www.linkedin.com/in/michelpiressilva/?originalSubdomain=br">Michel Pires Da Silva</a> no Centro Federal de Educação Tecnológica de Minas Gerais (<a href="https://www.divinopolis.cefetmg.br/">CEFET-MG</a>).
     </p>
 </section>
 <section>
@@ -26,7 +26,21 @@
     <div>
         <h3>📨 Arquivos de entrada</h3>
         <p>
-            Os arquivos utilizados para armazenar as matrizes devem ser do tipo <strong>Arquivo DATA</strong> (.data) ou <strong>Documento de texto</strong> (.txt)
+            Os arquivos utilizados para armazenar as matrizes devem ser do tipo <strong>Arquivo DATA</strong> (.data) ou <strong>Documento de texto</strong> (.txt). Estes por sua vez podem ser organizados de acordo com a necessidade do usuário em três possíveis modelos: i) Matrizes quadradas, ii) Matrizes quadradas variadas e iii) Matrizes dinâmicas.
         </p>
+        <ol type="i">
+            <li>
+                <h4>Matrizes quadradas</h4>
+                <p></p>
+            </li>
+            <li>
+                <h4>Matrizes quadradas variadas</h4>
+                <p></p>
+            </li>
+            <li>
+                <h4>Matrizes dinâmicas</h4>
+                <p></p>
+            </li>
+        </ol>
     </div>
 </section>
