@@ -23,4 +23,7 @@
     <p>
         Ademais, no que se refere as matrizes, o algoritimo deve enumerá-las, de forma a deixa-las organizadas para o processamento. Após isso, partindo da primeira matriz, iniciar o percurso do caminho guloso do primeiro elemento até que alcance o ultimo. Feito isso, verificar se existem mais matrizes e caso haja realizar o mesmo processamento para todas.
     </p>
+    <div>
+        <h3>📨 Arquivos de entrada</h3>
+    </div>
 </section>
