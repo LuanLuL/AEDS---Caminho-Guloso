@@ -94,7 +94,7 @@
     <div>
         <h3>💍 Engenharia do sistema</h3>
         <p>
-            A ferramenta utilizada para construção do sistema é  a linguagem de programação C++. Sendo orientada a objetos, o C++ é usado tanto para comunicação em máquinas quanto para desenvolvimento de softwares acadêmicos e corporativos, jogos e entre outras coisas. Foi escolhida por ser considerada uma das linguagens de programação mais rapidas dos mundo — <a href="https://cplusplus.com/doc/tutorial/" target="_blank">saiba mais</a>.
+            A ferramenta utilizada para construção do sistema é  a linguagem de programação C++. Sendo orientada a objetos (POO), o C++ é usado tanto para comunicação em máquinas quanto para desenvolvimento de softwares acadêmicos e corporativos, jogos e entre outras coisas. Foi escolhida por ser considerada uma das linguagens de programação mais rapidas dos mundo e por possuir as funcionalidades de POO — <a href="https://cplusplus.com/doc/tutorial/" target="_blank">saiba mais</a>.
         </p>
         <p>
             Com o intuito de armazenar os dados selecionados no arquivo de entrada de forma organizada, o sistema é composto por quatro classes: ListMatrizes, Matriz, Numero e Caminho. Observe mais na Figura 1.  
