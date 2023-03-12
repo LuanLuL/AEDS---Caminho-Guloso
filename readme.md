@@ -145,7 +145,7 @@
         <p>
             Os métodos reponsáveis por interpretar os diferents tipos de arquivos de entrada estão localizados no <code>main.cpp</code> e são:
         </p>
-        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/main.cpp">
+        <a style="text-decoration: none; color: black;" href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/main.cpp">
             <p><code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code></p>
             <p><code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}</code></p>
             <p><code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code></p>
