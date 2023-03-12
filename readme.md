@@ -169,7 +169,7 @@
             As possíveis posições a serem ocupadas dentro da matriz e os vizninhos plausíveis estão representados na Figura 2.
         </p>
         <p align="center">
-            <img src="img/diagrama_classes.png">
+            <img src="img/Matrizes_positions.png">
             <br><br><strong>Figura 2:</strong>Posições e vizinhos dentro da matriz
         </p>
         <br>
