@@ -182,7 +182,7 @@
         <p>
             Observe de forma mais detalhada o método reponsável por processar o caminho guloso das matrizes localizado no arquivo <code>matriz.cpp</code>:
         </p>
-        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/matriz.cpp">
+        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/Matriz.cpp">
             <p><code>void Matriz::createCaminho(){..}</code></p>
         </a>
     </div>
