@@ -273,7 +273,7 @@
         </pre>
     </p>
     <p>
-        Conclui-se então que a problemática do caminho guloso pode ser resolvida a partir de diversos pontos. A maneira  apresentada nesse repositório é so uma das diversas formas existentes para resolver esse problema. Porém, desde que seja seguido as mesmas ordens de prioridade, uma mesma matriz deve apresentar somente um único caminho guloso. 
+        Conclui-se então que a problemática do caminho guloso pode ser resolvida a partir de diversos pontos. A maneira  apresentada nesse repositório é so uma das diversas formas existentes para resolver esse problema. Porém, é assimilado que uma mesma matriz deve apresentar somente um único caminho guloso, desde que seja seguido as mesmas ordens de prioridade.
     </p>
 </section>
 <section>
@@ -282,5 +282,7 @@
         <p>
             Feito por <strong>Luan Gonçalves Santos</strong>.
         </p>
+        <br><br>
+        <a href="https://www.linkedin.com/in/luan-santos-9bb01920b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
     </div>
 </section>
