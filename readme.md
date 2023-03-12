@@ -272,12 +272,15 @@
     ************* FIM *************
         </pre>
     </p>
+    <p>
+        Conclui-se então que a problemática do caminho guloso pode ser resolvida a partir de diversos pontos. A maneira  apresentada nesse repositório é so uma das diversas formas existentes para resolver esse problema. Porém, desde que seja seguido as mesmas ordens de prioridade, uma mesma matriz deve apresentar somente um único caminho guloso. 
+    </p>
 </section>
 <section>
     <hr size="0.5">
     <div>
         <p>
-            Feito por <b>Luan Gonçalves Santos</b>.
+            Feito por <strong>Luan Gonçalves Santos</strong>.
         </p>
     </div>
 </section>
