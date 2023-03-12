@@ -97,12 +97,17 @@
     <div>
         <h3>💍 Engenharia do sistema</h3>
         <p>
-        Visando armazenar os dados selecionados no arquivo de entrada, o sistema é composto por quatro classes: ListMatrizes, Matriz, Caminho e Numero. Observe mais na Figura 1.  
+            A ferramenta utilizada para construção do sistema é  a linguagem de programação C++. Sendo orientada a objetos, o C++ é usado tanto para comunicação em máquinas quanto para desenvolvimento de softwares acadêmicos e corporativos, jogos e entre outras coisas. Foi escolhida por ser considerada uma das linguagens de programação mais rapidas dos mundo — <a href="https://cplusplus.com/doc/tutorial/" target="_blank">saiba mais</a>.
         </p>
-        <br><br><p align="center">
+        <p>
+            Visando armazenar os dados selecionados no arquivo de entrada, o sistema é composto por quatro classes: ListMatrizes, Matriz, Caminho e Numero. Observe mais na Figura 1.  
+        </p>
+        <br>
+        <p align="center">
             <img style="text-align: center;" src="img/diagrama_classes.png">
             <br><br><strong>Figura 1:</strong> Diagrama de classes do sistema
-        </p><br><br>
+        </p>
+        <br>
     </div>
     <div>
         <h3>📜 Selecionando os dados</h3>
@@ -123,11 +128,6 @@
         Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado de três principais tecnologias: Linguagem de Programação C++, Visual Studio Code e WSL:Ubunto.
     </p>
     <ul>
-        <li>
-            <p>
-                C++ é uma linguagem de programação orientada a objetos (POO), em código aberto (open source), multiplataforma e multi-paradigma. É usada tanto para comunicação em máquinas quanto para desenvolvimento de softwares acadêmicos e corporativos, jogos, edição de imagens, fotos e vídeos, entre outras opções. É considerado uma das linguagens de programação mais rapidas dos mundo — <a href="https://cplusplus.com/doc/tutorial/" target="_blank">C++</a>.
-            </p>
-        </li>
         <li>    
             <p>
                 O Visual Studio Code é um editor de texto multiplataforma disponibilizado pela Microsoft para o desenvolvimento de aplicações, Conhecer essa ferramenta é importante para os desenvolvedores que pretendem trabalhar em ambientes multiplataforma, por exemplo,  podendo operar o desenvolvimento em ambiente Mac e Linux, ao mesmo tempo em que mantém o projeto compatível com Windows. Segue em anexo o link para o site da plataforma — <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code<a>.
