@@ -112,15 +112,14 @@
     <div>
         <h3>📜 Selecionando os dados</h3>
         <p>
-            No que se refere aos arquivos, o usuário pode selecionar três modelos diferentes como entrada no sistema. Nessas circunstâncias, é evidente que também deve haver três métodos diferentes para realizar a leitura dos arquivos. Está seção visa discutir um pouco sobre as tática utilizadas para realizar a identificação de cada um dos padrões.  
+            No que se refere aos arquivos, o usuário pode selecionar três padrões diferentes para dar entrada no sistema. Nessas circunstâncias, é evidente que também deve haver três métodos diferentes para realizar a leitura dos arquivos. Está seção visa discutir um pouco sobre as táticas utilizadas para realizar a identificação de cada um dos padrões.  
         </p>
         <p>
             É importante destacar a utlização da biblioteca <code>fstream</code>, a qual possui recursos essenciais para a manipulação de arquivos externos. A partir dela, conseguimos ler as linhas, palavras e letras dos inputs utilizados como entrada. Nesse sentido, a ideia geral é percorrer os documentos até o final pegando as linhas que indicam o tamanho das matrizes e as palavras que reperesentam os elementos das matrizes. Isso só é possível pois cada número está separado por espaços. 
         </p>
         <p>
-            Assim sendo, segue o algoritimo que exemplifica as tomadas de decições gerais que ocorrerm nos três tipos diferentes de entradas de dados:
-            <pre>
-    1 - Abrir o arquivo externo de dados
+            Assim sendo, segue o algoritimo que exemplifica as tomadas de decições gerais que ocorrerm em ambos as formas de entradas de dados:
+            <pre>1 - Abrir o arquivo externo de dados
     2 - Verificar o estado do arquivo de entrada
         2.1 - Se o documento for aberto com sucesso vá para o passo 3
         2.2 - Se o houver algum erro na abertura mostre-o e finalize o programa
@@ -128,8 +127,8 @@
     4 - Transformar os textos analizados para números inteiros
     5 - Verificar o significado da informação lida
         5.1 - Se representar o tamanho das linhas e colunas vá para o passo 6
-        5.2 - Caso represente o valor numérico de um elemnto vá para o passo 7
-    6 - Criar a matriz ixj, onde i é o n° de linhas e j o n° de colunas
+        5.2 - Caso represente o valor numérico de um elemento vá para o passo 7
+    6 - Criar a matriz IxJ, onde I é o n° de linhas e J o n° de colunas
     7 - Armazenar número dentro da matriz
     8 - Verificar se a matriz está completa
         8.1 - Se a matriz estiver cheia vá para o passo 9
@@ -139,8 +138,7 @@
         10.1 - Se existe mais matrizes volte para o passo 5
         10.2 - Se não existir mais nenhuma matriz vá para o passo 11
     11 - Fechar o arquivo externo de dados
-    12 - Retornar a lista de matrizes 
-            </pre>
+    12 - Retornar a lista de matrizes</pre>
         </p>
         <p>
             Observe de forma detalhada os métodos reponsáveis por interpretar os diferents tipos de arquivos de entrada localizados no <code>main.cpp</code>:
