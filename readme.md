@@ -18,7 +18,7 @@
 <section>
     <h2>🚧 Regras</h2>
     <p>
-        Ao se tratar das matrizes, o algoritimo deve enumerá-las, de forma a deixa-las organizadas para o processamento. Após isso, partindo da primeira matriz, o percurso do caminho guloso deve ser processado do primeiro elemento até que alcance o ultimo. Feito isso, verificar se existem mais matrizes e caso haja realizar o mesmo processamento para todas.
+        Ao se tratar das matrizes, o algoritimo deve enumerá-las, de forma a deixa-las organizadas para o processamento. Após isso, partindo da primeira matriz, o percurso do caminho guloso deve ser processado do primeiro elemento até que alcance o ultimo. Feito isso, o sistema tem que verificar se existem mais matrizes e caso haja realizar o mesmo processamento para todas.
     </p>
     <p>
         Ademais, no que se refere aos arquivos de entrada, deve-se seguir algumas regras preestabelecidas em ralação a como construir tais estruturas de dados. Nesse sentido, visando abranger o problema de forma mais generalizada, os arquivos de entrada suportam qualquer matriz de tamanho MxN, porém, tais dados devem ser organizados de formas bem específicas.
