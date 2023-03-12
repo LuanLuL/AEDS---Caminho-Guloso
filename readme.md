@@ -154,14 +154,9 @@
             No decorrer da compilação, a principal dificuldade foi encontrar uma forma de diferenciar as linhas que repesentam os tamanho IxJ das palavras que indicam os valores numéricos. Como o arquivo de entrade está organizado de maneira conhecida pelo programador, bastou criar variáveis auxiliares que controlam o momento exato ao qual se encontrava os tamanhos linha (I) e coluna (J) da matriz.
         </p>
         <p>
-            Outro problema encontrado sucede da alternancia de comandos. Ao longo do código, o objeto <code>fstream inFile</code> as vezes utiliza o <code>getline();</code> para selecionar toda a linha e outras o <code>inFile >> string</code> para seleciona apenas as palavras. Nesse sentido, por algum motivo desconhecido, sempre ao alternar para o uso do <code>getline();</code> o programa selecionava uma linha em branca. Isso arruinava toda a lógica do sistema. Todavia, essa adversidade foi facilmente resolvida:
+            Outro problema encontrado sucede da alternancia de comandos. Ao longo do código, o objeto <code>fstream inFile</code> as vezes utiliza o <code>getline();</code> para selecionar toda a linha e outras o <code>inFile >> string</code> para seleciona apenas as palavras. Nesse sentido, por algum motivo desconhecido, sempre ao alternar para o uso do <code>getline();</code> o programa selecionava uma linha em branca. Isso arruinava toda a lógica do sistema.
         </p>
-        <p><code>
-            if(numberStr.size() < 1){
-                    getline(inFile, numberStr);
-            }
-        </code></p>
-        <p></p>
+        <p>Todavia, essa adversidade foi facilmente resolvida. Em suma, foi necessário verificar se o <code>getline.size();</code>era menor que o esperado. Caso fosse, apenas saltamos a linha processando outro <code>getline();</code> </p>
     </div>
     <div>
         <h3>👨‍💻 Configurações do caminho guloso</h3>
