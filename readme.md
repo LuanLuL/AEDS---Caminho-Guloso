@@ -119,7 +119,8 @@
         </p>
         <p>
             Assim sendo, segue o algoritimo que exemplifica as tomadas de decições gerais que ocorrerm em ambos as formas de entradas de dados:
-            <pre>1 - Abrir o arquivo externo de dados
+            <pre>
+    1 - Abrir o arquivo externo de dados
     2 - Verificar o estado do arquivo de entrada
         2.1 - Se o documento for aberto com sucesso vá para o passo 3
         2.2 - Se o houver algum erro na abertura mostre-o e finalize o programa
