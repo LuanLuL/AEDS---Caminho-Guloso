@@ -108,6 +108,9 @@
             <br><br><strong>Figura 1:</strong> Diagrama de classes do sistema
         </p>
         <br>
+        <p>
+            Essencialmente, o software contém duas estruturas de listas encadeadas, as classes <i>ListMatriz</i> (armazena todas as matrizes lidas na entrada) e <i>Caminho</i> (armazena o caminho guloso de cada matriz). Também existe a classe <i>Matriz</i>, a qual se faz jus o nome. No mais, resta apenas a classe <i>Numero</i>, cuja o objetivo é representar os elementos da matriz, informando se já foi ou não processado pelo sistema com o uso do atributo <i>control: bool</i>.
+        </p>
     </div>
     <div>
         <h3>📜 Selecionando os dados</h3>
