@@ -123,7 +123,7 @@
     1 - Abrir o arquivo externo de dados
     2 - Verificar o estado do arquivo de entrada
         2.1 - Se o documento for aberto com sucesso vá para o passo 3
-        2.2 - Se o houver algum erro na abertura mostre-o e finalize o programa
+        2.2 - Se houver algum erro na abertura mostre-o e finalize o programa
     3 - Percorrer o arquivo de entrada enquanto não chegar em seu final 
     4 - Transformar os textos analizados para números inteiros
     5 - Verificar o significado da informação lida
@@ -153,9 +153,9 @@
             No decorrer da compilação, a principal dificuldade foi encontrar uma forma de diferenciar as linhas que repesentam os tamanho ixj das palavras que indicam os valores numéricos. Como o arquivo de entrada está organizado de maneira conhecida pelo programador, bastou criar variáveis auxiliares que controlam o momento exato ao qual se encontrava os tamanhos da linha (i) e coluna (j) da matriz.
         </p>
         <p>
-            Outro problema encontrado sucede da alternancia de comandos. Ao longo do código, o objeto <code>fstream inFile</code> as vezes utiliza o <code>getline()</code> para selecionar toda a linha e outras o <code>inFile >> string</code> para pegar apenas as palavras. Nesse sentido, por algum motivo desconhecido, sempre ao alternar para o uso do <code>getline()</code> o programa selecionava uma linha em branca. Isso arruinava toda a lógica do sistema.
+            Outro problema encontrado sucede da alternancia de comandos. Ao longo do código, o objeto <code>fstream inFile</code> as vezes utiliza o <code>getline()</code> para selecionar toda a linha e outras o <code>inFile >> string</code> para pegar apenas as palavras. Nesse sentido, por algum motivo desconhecido, sempre ao alternar para o uso do <code>getline()</code> o programa selecionava uma linha em branco. Isso arruinava toda a lógica do sistema.
         </p>
-        <p>Todavia, essa adversidade foi facilmente resolvida. Em suma, foi necessário verificar se o <code>getline.size()</code>era menor do que o esperado. Caso fosse, o altogritmo salta para a proxima linha.</p>
+        <p>Todavia, essa adversidade foi facilmente resolvida. Em suma, foi necessário verificar se o <code>getline.size()</code>era menor do que o esperado. Caso for, o altogritmo salta para a proxima linha.</p>
     </div>
     <div>
         <h3>👨‍💻 Configurações do caminho guloso</h3>
