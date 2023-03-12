@@ -143,11 +143,19 @@
             </pre>
         </p>
         <p>
-            Os métodos reponsáveis por interpretar os diferentis tipos de arquivos de entrada estão localizados no <code>main.cpp</code> e são:
+            Os métodos reponsáveis por interpretar os diferents tipos de arquivos de entrada estão localizados no <code>main.cpp</code> e são:
         </p>
-        <p><code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code></p>
-        <p><code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}</code></p>
-        <p><code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code></p>
+        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/main.cpp">
+            <p><code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code></p>
+            <p><code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}</code></p>
+            <p><code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code></p>
+        </a>
+        <p>
+            No decorrer da compilação, a principal dificuldade foi encontrar uma forma de difernciar as linhas que repesentam os tamanho ixj das palavras que indicam os valores numéricos. Como o arquivo de entrade está organizado de maneira conhecida pelo programador, bastou criar variáveis auxiliares que controlam o momento exato ao qual se encontrava os tamanhos linha (i) e coluna (j) da matriz.
+        </p>
+        <p>
+            Outro problema encontrado sucede da alternancia de comandos. Ao longo do código, o objeto fstream 
+        </p>
     </div>
     <div>
         <h3>👨‍💻 Configurações do caminho guloso</h3>
@@ -161,7 +169,7 @@
 <section>
     <h2>🎞 Processamento</h2>
     <p>
-        Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado de três principais tecnologias: Linguagem de Programação C++, Visual Studio Code e WSL:Ubunto.
+        Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado de três principais tecnologias: Visual Studio Code e WSL:Ubunto.
     </p>
     <ul>
         <li>    
