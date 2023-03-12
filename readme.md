@@ -214,7 +214,7 @@
         </pre>
     </p>
     <p>
-        O menu de opções é bem simples. Nele é possível realizar a leitura de três Arquivos DATA, cada arquivo de entrada está seguindo um dos diferentes modelos. Fique avontade para altera-los, mas lembre-se, é fundamental que os documentos sigam pelo menos um dos padrões estabelecido no intuito de não comprometer sua leitura.
+        O menu de opções é bem simples. Nele é possível realizar a leitura de três Arquivos DATA, cada arquivo está seguindo um dos diferentes padrões de entrada. Fique avontade para altera-los, mas lembre-se, é fundamental que os documentos sigam pelo menos um dos padrões estabelecido no intuito de não comprometer sua leitura.
     </p>
 </section>
 <section>
