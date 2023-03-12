@@ -174,7 +174,7 @@
         </p>
         <br>
         <p>
-            Após descobrir qual é a posição do elemento em relação a matriz, automaticamente conhecemos também os vizinhos. Assim sendo, para encontrar a próximo elemento pertencente ao caminho guloso basta comparar os valores e o maior entre eles assim será.
+            Após descobrir qual é a posição do elemento em relação a matriz, automaticamente conhecemos também os vizinhos. Assim sendo, para encontrar a próximo elemento pertencente ao caminho guloso basta comparar os valores e o maior entre eles assim será. Além disso, é necessario verificar se a posição do próximo elemento já foi processada pelo sistema; caso já tenha sido esse vizinho se torna inadmissível e o sistema o desconsidera como uma possibilidade. Essa apuração é significativa, visto que sem ela o caminho guloso pode entrar em uma volta inacabáveis.
         </p>
         <p>
         </p>
