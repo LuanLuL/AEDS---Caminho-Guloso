@@ -143,7 +143,7 @@
             </pre>
         </p>
         <p>
-            Os métodos reponsáveis por interpretar os diferents tipos de arquivos de entrada estão localizados no <code>main.cpp</code> e são:
+            Observe de forma detalhada os métodos reponsáveis por interpretar os diferents tipos de arquivos de entrada localizados no <code>main.cpp</code>:
         </p>
         <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/main.cpp">
             <p><code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code></p>
