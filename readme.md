@@ -35,7 +35,7 @@
             <li>Ir em diagonal para baixo.</li>
         </ol>
         <p>
-            Se a contagem chegar na ultima linha, independentemente em qual valor esteja a coluna, o algoritimo é obrigado a andar somente para a direita até que chegue ao fim. Além disso, é importante ressaltar que todas essas regras só se aplicam se a casa (posição i,j da matriz) ainda não tenha sido descoberta. Ou seja, o sistema tem que desconsiderar as posições já processada. Por fim, quando a contagem alcançar a última linha e coluna da matriz simultaneamente o percurso é finalizado.
+            Se a contagem chegar na ultima linha, independentemente em qual valor esteja a coluna, o algoritimo é obrigado a andar somente para a direita até que chegue ao fim. Além disso, é importante ressaltar que todas essas regras só se aplicam se a casa (posição i,j da matriz) ainda não tenha sido descoberta. Ou seja, o sistema tem que desconsiderar as posições já processada. Por fim, quando a contagem alcançar,  simultaneamente, a última linha e coluna da matriz o percurso é finalizado.
         </p>
         <p>
             Após o caminhamento guloso, apresente ao usuário qual foi o caminho adotado e qual a soma obtida do caminho realizado. Este processo deve ser feito para todas as matrizes existentes no arquivo de entrada.
