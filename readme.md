@@ -100,7 +100,7 @@
             A ferramenta utilizada para construção do sistema é  a linguagem de programação C++. Sendo orientada a objetos, o C++ é usado tanto para comunicação em máquinas quanto para desenvolvimento de softwares acadêmicos e corporativos, jogos e entre outras coisas. Foi escolhida por ser considerada uma das linguagens de programação mais rapidas dos mundo — <a href="https://cplusplus.com/doc/tutorial/" target="_blank">saiba mais</a>.
         </p>
         <p>
-            Visando armazenar os dados selecionados no arquivo de entrada, o sistema é composto por quatro classes: ListMatrizes, Matriz, Caminho e Numero. Observe mais na Figura 1.  
+            Com o intuito de armazenar os dados selecionados no arquivo de entrada de forma organizada, o sistema é composto por quatro classes: ListMatrizes, Matriz, Numero e Caminho. Observe mais na Figura 1.  
         </p>
         <br>
         <p align="center">
