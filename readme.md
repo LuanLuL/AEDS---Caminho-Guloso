@@ -114,7 +114,12 @@
     </div>
     <div>
         <h3>📜 Selecionando os dados</h3>
-        <p></p>
+        <p>
+            No que se refere aos arquivos, de cocordo com suas necessidades, o usuário pode selecionar três modelos diferentes como entrada no sistema. Nessas circunstâncias, é evidente que também deve haver três métodos diferentes para realizar a leitura dos arquivos. Está seção visa discutir um pouco sobre as tática utilizadas para realizar a leitura de cada um dos padrões.  
+        </p>
+        <p>
+            É importante destacar a utlização da biblioteca ``fstream``, a qual possui recursos essenciais para a manipulação de arquivos externos. A partir dela, conseguimos ler as linhas, palavras e letras dos inputs utilizados como entrada. Nesse sentido, a ideia geral é percorrer os documentos até o final pegando, simunltaneamente, as linhas que indicam o tamanho das matrizes e as palavras que reperesentam os elementos das matrizes. Isso só é possível pois cada número está separado por espaços. 
+        </p>
     </div>
     <div>
         <h3>👨‍💻 Configurações do caminho guloso</h3>
