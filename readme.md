@@ -166,7 +166,7 @@
             A princípio, o processamento é iniciado no primeiro elemento da matriz. Fora esse, não há como saber a próxima posição a ser considerada. Sabe-se apenas que ela deve ter o maior valor dentre todos os vizinhos do elemento anterior. Nesse sentido, primeiro devemos encontrar a posição relativa do elemento para depois verificar os seus possíveis valores vizinhos. Isso é de extrema importância, pois assim evitamos que os números pertencentes a matriz sejam comparados com algum lixo de memória.
         </p>
         <p>
-            As possíveis posições a serem ocupadas dentro da matriz e os vizninhos plausíveis estão representados na Figura 2.
+            As possíveis posições a serem ocupadas dentro da matriz e os vizninhos estão representados na Figura 2.
         </p>
         <p align="center">
             <img src="img/Matrizes_positions.png">
