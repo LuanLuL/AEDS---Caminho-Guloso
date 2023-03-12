@@ -160,27 +160,23 @@
     <div>
         <h3>👨‍💻 Configurações do caminho guloso</h3>
         <p>
-            Seguindo as regras pre-estabelcidas para a execução do caminho guloso, a solução apresentada se baseia completamente na posição relativa (ixj) do elemento na matriz.
+            Seguindo as regras pre-estabelcidas para a execução do caminho guloso, a solução apresentada se baseia completamente no lugar onde o elemento se encontra localizado dentro da matriz.
         </p>
         <p>
-            A princípio, o processamento é iniciado no primeiro elemento da matriz. Forá esse, não há como saber a próxima posição a ser considerada. Sabe-se apenas que ela deve ter o maior valor dentre todos os vizinhos do elemento anterior. Nesse sentido, primeiro devemos encontrar a posição relativa do elemento para somente entao verificar os seus possíveis valores vizinhos.
+            A princípio, o processamento é iniciado no primeiro elemento da matriz. Fora esse, não há como saber a próxima posição a ser considerada. Sabe-se apenas que ela deve ter o maior valor dentre todos os vizinhos do elemento anterior. Nesse sentido, primeiro devemos encontrar a posição relativa do elemento para depois verificar os seus possíveis valores vizinhos. Isso é de extrema importância, pois assim evitamos que os números pertencentes a matriz sejam comparados com algum lixo de memória.
         </p>
         <p>
-
+            As possíveis posições a serem ocupadas dentro da matriz e os vizninhos plausíveis estão representados na Figura 2.
+        </p>
+        <p align="center">
+            <img src="img/diagrama_classes.png">
+            <br><br><strong>Figura 2:</strong>Posições e vizinhos dentro da matriz
+        </p>
+        <br>
+        <p>
         </p>
         <p>
-
         </p>
-        <p>
-
-        </p>
-        <p>
-
-        </p>
-    </div>
-    <div>
-        <h3></h3>
-        <p></p>
     </div>
 </section>
 <section>
