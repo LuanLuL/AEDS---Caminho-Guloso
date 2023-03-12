@@ -120,7 +120,10 @@
         <p>
             Assim sendo, segue o algoritimo que exemplifica as tomadas de decições gerais que ocorrerm nos três tipos diferentes de entradas de dados:
             <ol>
-                <li>Abrir o arquivo externo de dados</li>
+                <li>
+                    Abrir o arquivo externo de dados
+                    <li>opa<li>
+                </li>
                 <li></li>
                 <li></li>
                 <li></li>
