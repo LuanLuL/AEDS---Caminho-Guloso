@@ -91,9 +91,6 @@
     <p>
         Depois de compreendido a problemática e suas respectivas regras, a estratégia de resolução apresentada se baseia em dividir o problema em partes. Primeiramente, é necessario criar uma forma organizada de armazenar as matrizes dentro do programa, na qual é empregado os conceitos da Orientação a Objetos. Em seguida é preciso estabelecer meios sucintos para efetivar a leitura dos arquivos de entrada; três métodos foram desenvolvidos para satisfazer essa demanda. Por último e mais importante, o caminho guloso de cada matriz deve ser mostrado juntamente com a soma final dos elementos percorridos. 
     </p>
-        <!-- <code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code>
-        <code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}</code>
-        <code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code> -->
     <div>
         <h3>💍 Engenharia do sistema</h3>
         <p>
@@ -115,11 +112,27 @@
     <div>
         <h3>📜 Selecionando os dados</h3>
         <p>
-            No que se refere aos arquivos, de cocordo com suas necessidades, o usuário pode selecionar três modelos diferentes como entrada no sistema. Nessas circunstâncias, é evidente que também deve haver três métodos diferentes para realizar a leitura dos arquivos. Está seção visa discutir um pouco sobre as tática utilizadas para realizar a leitura de cada um dos padrões.  
+            No que se refere aos arquivos, o usuário pode selecionar três modelos diferentes como entrada no sistema. Nessas circunstâncias, é evidente que também deve haver três métodos diferentes para realizar a leitura dos arquivos. Está seção visa discutir um pouco sobre as tática utilizadas para realizar a identificação de cada um dos padrões.  
         </p>
         <p>
-            É importante destacar a utlização da biblioteca <code>fstream</code>, a qual possui recursos essenciais para a manipulação de arquivos externos. A partir dela, conseguimos ler as linhas, palavras e letras dos inputs utilizados como entrada. Nesse sentido, a ideia geral é percorrer os documentos até o final pegando, simunltaneamente, as linhas que indicam o tamanho das matrizes e as palavras que reperesentam os elementos das matrizes. Isso só é possível pois cada número está separado por espaços. 
+            É importante destacar a utlização da biblioteca <code>fstream</code>, a qual possui recursos essenciais para a manipulação de arquivos externos. A partir dela, conseguimos ler as linhas, palavras e letras dos inputs utilizados como entrada. Nesse sentido, a ideia geral é percorrer os documentos até o final pegando as linhas que indicam o tamanho das matrizes e as palavras que reperesentam os elementos das matrizes. Isso só é possível pois cada número está separado por espaços. 
         </p>
+        <p>
+            Assim sendo, segue o algoritimo que exemplifica os as tomadas de decições gerais que ocorrerm nos três tipos diferentes de entradas de dados:
+            <ol>
+                <li>Abrir o arquivo externo de dados</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>Fechar o arquivo externo de dados</li>
+            </ol>
+        </p>
+        <!-- <code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code>
+        </code>
+        <code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}
+        <code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code>-->
     </div>
     <div>
         <h3>👨‍💻 Configurações do caminho guloso</h3>
