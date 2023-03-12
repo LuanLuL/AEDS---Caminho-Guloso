@@ -170,10 +170,11 @@
         </p>
         <p align="center">
             <img src="img/Matrizes_positions.png">
-            <br><br><strong>Figura 2:</strong>Posições e vizinhos dentro da matriz
+            <br><br><strong>Figura 2:</strong> Posições e vizinhos dentro da matriz
         </p>
         <br>
         <p>
+            Após descobrir qual é a posição do elemento em relação a matriz, automaticamente conhecemos também os vizinhos. Assim sendo, para encontrar a próximo elemento pertencente ao caminho guloso basta comparar os valores e o maior entre eles assim será.
         </p>
         <p>
         </p>
