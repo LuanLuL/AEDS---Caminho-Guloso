@@ -142,10 +142,12 @@
     12 - Retornar a lista de matrizes 
             </pre>
         </p>
-        <!-- <code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code>
-        </code>
-        <code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}
-        <code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code>-->
+        <p>
+            Os métodos reponsáveis por interpretar os diferentis tipos de arquivos de entrada estão localizados no <code>main.cpp</code> e são:
+        </p>
+        <p><code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code></p>
+        <p><code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}</code></p>
+        <p><code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code></p>
     </div>
     <div>
         <h3>👨‍💻 Configurações do caminho guloso</h3>
