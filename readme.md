@@ -118,7 +118,7 @@
             É importante destacar a utlização da biblioteca <code>fstream</code>, a qual possui recursos essenciais para a manipulação de arquivos externos. A partir dela, conseguimos ler as linhas, palavras e letras dos inputs utilizados como entrada. Nesse sentido, a ideia geral é percorrer os documentos até o final pegando as linhas que indicam o tamanho das matrizes e as palavras que reperesentam os elementos das matrizes. Isso só é possível pois cada número está separado por espaços. 
         </p>
         <p>
-            Assim sendo, segue o algoritimo que exemplifica os as tomadas de decições gerais que ocorrerm nos três tipos diferentes de entradas de dados:
+            Assim sendo, segue o algoritimo que exemplifica as tomadas de decições gerais que ocorrerm nos três tipos diferentes de entradas de dados:
             <ol>
                 <li>Abrir o arquivo externo de dados</li>
                 <li></li>
