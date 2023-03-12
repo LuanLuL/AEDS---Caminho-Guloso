@@ -101,7 +101,7 @@
         </p>
         <br>
         <p align="center">
-            <img style="text-align: center;" src="img/diagrama_classes.png">
+            <img src="img/diagrama_classes.png">
             <br><br><strong>Figura 1:</strong> Diagrama de classes do sistema
         </p>
         <br>
@@ -145,7 +145,7 @@
         <p>
             Os métodos reponsáveis por interpretar os diferents tipos de arquivos de entrada estão localizados no <code>main.cpp</code> e são:
         </p>
-        <a style="text-decoration: none; color: black;" href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/main.cpp">
+        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/main.cpp">
             <p><code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code></p>
             <p><code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}</code></p>
             <p><code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code></p>
@@ -154,9 +154,9 @@
             No decorrer da compilação, a principal dificuldade foi encontrar uma forma de diferenciar as linhas que repesentam os tamanho IxJ das palavras que indicam os valores numéricos. Como o arquivo de entrade está organizado de maneira conhecida pelo programador, bastou criar variáveis auxiliares que controlam o momento exato ao qual se encontrava os tamanhos linha (I) e coluna (J) da matriz.
         </p>
         <p>
-            Outro problema encontrado sucede da alternancia de comandos. Ao longo do código, o objeto <code>fstream inFile</code> as vezes utiliza o <code>getline();</code> para selecionar toda a linha e outras o <code>inFile >> string</code> para seleciona apenas as palavras. Nesse sentido, por algum motivo desconhecido, sempre ao alternar para o uso do <code>getline();</code> o programa selecionava uma linha em branca. Isso arruinava toda a lógica do sistema.
+            Outro problema encontrado sucede da alternancia de comandos. Ao longo do código, o objeto <code>fstream inFile</code> as vezes utiliza o <code>getline()</code> para selecionar toda a linha e outras o <code>inFile >> string</code> para seleciona apenas as palavras. Nesse sentido, por algum motivo desconhecido, sempre ao alternar para o uso do <code>getline()</code> o programa selecionava uma linha em branca. Isso arruinava toda a lógica do sistema.
         </p>
-        <p>Todavia, essa adversidade foi facilmente resolvida. Em suma, foi necessário verificar se o <code>getline.size();</code>era menor que o esperado. Caso fosse, apenas saltamos a linha processando outro <code>getline();</code> </p>
+        <p>Todavia, essa adversidade foi facilmente resolvida. Em suma, foi necessário verificar se o <code>getline.size()</code>era menor que o esperado. Caso fosse, apenas saltamos para a proxima linha atráves de outro <code>getline()</code>.</p>
     </div>
     <div>
         <h3>👨‍💻 Configurações do caminho guloso</h3>
