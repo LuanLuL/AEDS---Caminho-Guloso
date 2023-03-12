@@ -177,7 +177,7 @@
             Após descobrir qual é a posição do elemento em relação a matriz, automaticamente conhecemos também os vizinhos. Assim sendo, para encontrar o próximo elemento pertencente ao caminho guloso basta comparar os valores e o maior entre eles assim será. Além disso, é necessario verificar se a posição do próximo elemento já foi processada pelo sistema; caso já tenha sido esse vizinho se torna inadmissível e o sistema o desconsidera como uma possibilidade. Essa apuração é significativa, visto que sem ela o caminho guloso pode entrar em uma volta inacabável.
         </p>
         <p>
-            Contudo, tem-se ainda a possibilidade de que os valores entre os possíveis vizinhos sejam iguais. Quando o sistema se deparar com um situação dessas é implementado uma ordem de prioridade para o próximo elemento do caminho guloso: i) diagonal inferior direita, ii) baixo, iii) direita, iv) diagonal inferior esquerda e v) esquerda.
+            Contudo, tem-se ainda a possibilidade de que os valores entre os possíveis vizinhos sejam iguais. Quando o sistema se deparar com uma situação dessas é implementado uma ordem de prioridade para o próximo elemento do caminho guloso: i) diagonal inferior direita, ii) baixo, iii) direita, iv) diagonal inferior esquerda e v) esquerda.
         </p>
         <p>
             Observe de forma mais detalhada o método reponsável por processar o caminho guloso das matrizes localizado no arquivo <code>matriz.cpp</code>:
