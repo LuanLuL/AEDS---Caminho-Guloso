@@ -123,23 +123,23 @@
     1 - Abrir o arquivo externo de dados
     2 - Verificar o estado do arquivo de entrada
         2.1 - Se o documento for aberto com sucesso vá para o passo 3
-        2.2 - Se o houver algum erro na abertura mostrar e finalizar o programa
+        2.2 - Se o houver algum erro na abertura mostre-o e finalize o programa
     3 - Percorrer o arquivo de entrada enquanto não chegar em seu final 
-    4 - Transformar os textos analizados para numeros inteiros
-    4 - Verificar o significado da informação lida
-        4.1 - Se representar o tamanho das linhas e colunas vá para o passo 5
-        4.2 - Caso representar o valor numérico de um elemnto vá para o passo 6
-    5 - Criar a matriz ixj, onde i é o n° de linhas e j o n° de colunas
-    6 - Armazenar número dentro da matriz
-    7 - Verificar se a matriz está completa
-        7.1 - Se a matriz estiver cheia vá para o passo 8
-        7.2 - Caso contrário volte para o passo 4 
-    8 - Armazenar a matriz na lista encadeada
-    9 - Vericar se há outra matriz no arquivo de entrada
-        9.1 - Se existe mais matrizes volte para o passo 4
-        9.2 - Se não existir mais nenhuma matriz vá para o passo 7
-    10 - Fechar o arquivo externo de dados
-    11 - Retornar a lista de matrizes 
+    4 - Transformar os textos analizados para números inteiros
+    5 - Verificar o significado da informação lida
+        5.1 - Se representar o tamanho das linhas e colunas vá para o passo 6
+        5.2 - Caso represente o valor numérico de um elemnto vá para o passo 7
+    6 - Criar a matriz ixj, onde i é o n° de linhas e j o n° de colunas
+    7 - Armazenar número dentro da matriz
+    8 - Verificar se a matriz está completa
+        8.1 - Se a matriz estiver cheia vá para o passo 9
+        8.2 - Caso contrário volte para o passo 5 
+    9 - Armazenar a matriz na lista encadeada
+    10 - Vericar se há outra matriz no arquivo de entrada
+        10.1 - Se existe mais matrizes volte para o passo 5
+        10.2 - Se não existir mais nenhuma matriz vá para o passo 11
+    11 - Fechar o arquivo externo de dados
+    12 - Retornar a lista de matrizes 
             </pre>
         </p>
         <!-- <code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code>
