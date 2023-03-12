@@ -220,6 +220,57 @@
 <section>
     <h2>🙌 Resultado Final</h2>
     <p>
+        Como resultado, assim que o usuário escolher a opção do arquivo de entrada, é impresso na tela a lista encadeada de matrizes, onde aparece juntamente a cada matriz o seu respectivo caminho guloso. Observe abaixo a impressão dos resultados atingidos no arquivo <code>input.data</code>:
+        <pre>
+    ************* INICIO *************<br>
+    Aquivos disponíveis:<br>
+            1 - input.data
+            2 - input_2.data
+            3 - input_3.data
+            4 - Sair<br>
+    Escolha o arquivo de entrada: 1<br>
+    478 664 153 268 500 997 991 
+    903 762 253 590 868 842 682 
+    707 409 87 351 565 496 251 
+    485 564 114 584 413 863 22 
+    388 307 545 585 972 417 572 
+    192 415 565 814 178 537 405 
+    765 380 806 193 509 893 263 <br>
+    Caminho Guloso: 478 903 762 707 564 545 814 806 193 509 893 263 = 7437<br>
+    75 110 514 280 674 629 864 
+    806 212 886 913 519 432 500 
+    492 569 791 403 984 76 218 
+    882 333 342 648 713 150 560 
+    941 762 824 736 591 339 17 
+    266 687 600 74 899 487 987 
+    420 638 207 631 208 718 36 <br>
+    Caminho Guloso: 75 806 569 882 941 762 824 736 899 718 36 = 7248<br>
+    912 794 972 514 128 316 881 
+    561 185 443 222 666 268 677 
+    259 326 413 244 15 14 37 
+    914 220 744 54 859 951 686 
+    786 389 441 418 903 133 932 
+    750 168 815 31 353 977 254 
+    739 246 650 998 291 65 243 <br>
+    Caminho Guloso: 912 794 972 514 666 268 677 37 951 932 977 353 998 291 65 243 = 9650<br>
+    306 79 281 940 300 744 713 
+    878 415 119 384 805 560 803 
+    709 413 455 460 581 271 211 
+    935 967 465 394 932 116 393 
+    225 899 355 531 979 355 191 
+    998 100 905 596 516 25 980 
+    322 305 784 750 718 959 929 <br>
+    Caminho Guloso: 306 878 709 967 935 899 998 322 305 784 750 718 959 929 = 10459<br>
+    *********************************<br>
+    Aquivos disponíveis:<br>
+            1 - input.data
+            2 - input_2.data
+            3 - input_3.data
+            4 - Sair<br>
+    Escolha o arquivo de entrada: 4<br>
+    Saindo...<br>
+    ************* FIM *************
+        </pre>
     </p>
 </section>
 <section>
