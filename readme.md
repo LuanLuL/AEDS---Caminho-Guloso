@@ -142,7 +142,7 @@
     12 - Retornar a lista de matrizes</pre>
         </p>
         <p>
-            Observe de forma mais detalhada os métodos reponsáveis por interpretar os diferentes tipos de arquivos de entrada localizados no <code>main.cpp</code>:
+            Observe de forma mais detalhada os métodos reponsáveis por interpretar os diferentes tipos de arquivos de entrada localizados no arquivo <code>main.cpp</code>:
         </p>
         <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/main.cpp">
             <p><code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code></p>
@@ -177,7 +177,14 @@
             Após descobrir qual é a posição do elemento em relação a matriz, automaticamente conhecemos também os vizinhos. Assim sendo, para encontrar a próximo elemento pertencente ao caminho guloso basta comparar os valores e o maior entre eles assim será. Além disso, é necessario verificar se a posição do próximo elemento já foi processada pelo sistema; caso já tenha sido esse vizinho se torna inadmissível e o sistema o desconsidera como uma possibilidade. Essa apuração é significativa, visto que sem ela o caminho guloso pode entrar em uma volta inacabáveis.
         </p>
         <p>
+            Contudo, tem-se ainda a possibilidade de que os valores entre os possíveis vizinhos sejam iguais. Quando o sistema se deparar com um situação dessas é implementado uma ordem de prioridade para o próximo elemento do caminho guloso: i) diagonal inferior direita, ii) baixo, iii) direita, iv) diagonal inferior esquerda e v) esquerda.
         </p>
+        <p>
+            Observe de forma mais detalhada o método reponsável por processar o caminho guloso das matrizes localizado no arquivo <code>matriz.cpp</code>:
+        </p>
+        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/matriz.cpp">
+            <p><code>void Matriz::createCaminho(){..}</code></p>
+        </a>
     </div>
 </section>
 <section>
