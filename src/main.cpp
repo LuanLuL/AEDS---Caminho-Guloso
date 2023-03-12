@@ -104,7 +104,7 @@ ListMatrizes lerMatrizesDinamicas(string txt){
         while (!inFile.eof()){
             if(aux == 0){
                 getline(inFile, numberStr);
-                if(numberStr.size() < 2){
+                if(numberStr.size() < 1){
                     getline(inFile, numberStr);
                 }
                 tamanhoLinha = atoi(&numberStr.at(0));
