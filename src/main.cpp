@@ -177,6 +177,6 @@ int main(){
                 break;
         }
     }while(resposta != 4);
-    cout << "\n\n************* FIM *************\n\n";
+    cout << "\n\n************* FIM *************\n\n"; 
     return 0;
 }
