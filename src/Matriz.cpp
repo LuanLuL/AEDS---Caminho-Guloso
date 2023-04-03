@@ -158,7 +158,7 @@ void Matriz::createCaminho(){
             //      SEGUE APENAS PARA A DIREITA
             colunaAux = colunaAux + 1;
         }
-        else if(linhaAux == this->tamanhoLinha-1 && colunaAux == this->tamanhoColuna){ //      CANTO INFERIOR DIREITO
+        else if(linhaAux == this->tamanhoLinha-1 && colunaAux == this->tamanhoColuna-1){ //      CANTO INFERIOR DIREITO
             //      FINALIZA O CAMINHO
         }
         else if(linhaAux == 0){ //      BORDA SUPERIOR
