@@ -215,15 +215,15 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>`make clean`</td>
+                    <td><code>make clean</code></td>
                     <td>Apaga a última compilação realizada contida na pasta build</td>
                 </tr>
                 <tr>
-                    <td>`make`</td>
+                    <td><code>make</code></td>
                     <td>Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build</td>
                 </tr>
                 <tr>
-                    <td>`make run`</td>
+                    <td><code>make run</code></td>
                     <td>Executa o programa da pasta build após a realização da compilação</td>
                 </tr>
             </tbody>
