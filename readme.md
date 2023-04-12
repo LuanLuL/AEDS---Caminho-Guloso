@@ -204,10 +204,9 @@
     </ul>
     <p>
         O programa ainda possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
-    </p>
+    </p><br>
     <div align="center">
         <table>
-            <capiton><b>Tabela 1:</b> Comandos úteis para compilar e executar o programa de computador</caption>
             <thead>
                 <tr>
                     <th>Comando</th>
@@ -228,7 +227,8 @@
                     <td>Executa o programa da pasta build após a realização da compilação</td>
                 </tr>
             </tbody>
-        </table>
+         <br><capiton><b>Tabela 1:</b> Comandos úteis para compilar e executar o programa de computador</caption>
+        </table><br>
     </div>
     <p>
         Por fim, para que o processamento do algoritimo seja feito, é necessário o entendimento do menu de opções existente: 
