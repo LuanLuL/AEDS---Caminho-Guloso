@@ -207,7 +207,6 @@
     </p><br>
     <div align="center">
         <table>
-         <capiton><b>Tabela 1:</b> Comandos úteis para compilar e executar o programa de computador</caption><br>
             <thead>
                 <tr>
                     <th>Comando</th>
@@ -229,6 +228,9 @@
                 </tr>
             </tbody>
         </table><br>
+        <p align="center">
+            <b>Tabela 1:</b> Comandos úteis para compilar e executar o programa de computador
+        </p>
     </div>
     <p>
         Por fim, para que o processamento do algoritimo seja feito, é necessário o entendimento do menu de opções existente: 
