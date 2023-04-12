@@ -207,6 +207,7 @@
     </p>
     <div align="center">
         <table>
+            <capiton><b>Tabela 1:</b> Comandos úteis para compilar e executar o programa de computador</caption>
             <thead>
                 <tr>
                     <th>Comando</th>
