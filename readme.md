@@ -227,7 +227,7 @@
                     <td>Executa o programa da pasta build após a realização da compilação</td>
                 </tr>
             </tbody>
-        </table><br>
+        </table>
         <p align="center">
             <b>Tabela 1:</b> Comandos úteis para compilar e executar o programa de computador
         </p>
