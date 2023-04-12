@@ -205,28 +205,13 @@
     <p>
         O programa ainda possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
     </p>
-    <table>
-        <thead>
-            <tr>
-                <th>Comando</th>
-                <th>Função</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>`make clean`</td>
-                <td>Apaga a última compilação realizada contida na pasta build</td>
-            </tr>
-            <tr>
-                <td>`make`</td>
-                <td>Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build</td>
-            </tr>
-            <tr>
-                <td>`make run`</td>
-                <td>Executa o programa da pasta build após a realização da compilação</td>
-            </tr>
-        </tbody>
-    </table>
+    <div>
+        | Comando                |  Função                                                                                           |                     
+        | -----------------------| ------------------------------------------------------------------------------------------------- |
+        |  `make clean`          | Apaga a última compilação realizada contida na pasta build                                        |
+        |  `make`                | Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build           |
+        |  `make run`            | Executa o programa da pasta build após a realização da compilação
+     </div>
     <p>
         Por fim, para que o processamento do algoritimo seja feito, é necessário o entendimento do menu de opções existente: 
         <pre>
