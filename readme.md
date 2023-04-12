@@ -207,6 +207,7 @@
     </p><br>
     <div align="center">
         <table>
+         <capiton><b>Tabela 1:</b> Comandos úteis para compilar e executar o programa de computador</caption><br>
             <thead>
                 <tr>
                     <th>Comando</th>
@@ -227,7 +228,6 @@
                     <td>Executa o programa da pasta build após a realização da compilação</td>
                 </tr>
             </tbody>
-         <br><capiton><b>Tabela 1:</b> Comandos úteis para compilar e executar o programa de computador</caption>
         </table><br>
     </div>
     <p>
