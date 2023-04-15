@@ -56,7 +56,7 @@
                     Para representar as matrizes quadradas, é preciso declarar seus tamanhos fixos na primeira linha do arquivo de entrada. A seguir, na segunda linha de registro, é inserido os números da matriz, onde cada elemento deve ser separado por um espaço. Nesse sentido, a quantidade de números deve respeitar o tamanho (N N) informado na primeira linha do arquivo de entrada. Após isso, para armazenar outras matrizes basta separa-las por uma linha em branco.
                 </p>
                 <p>
-                    Segue o exemplo de como criar um arquivo de entrada para matrizes quadradas de tamanho 7X7 no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input.data">input.data</a>. 
+                    Segue o exemplo de como criar um arquivo de entrada para matrizes quadradas de tamanho 7X7 no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/main/input.data">input.data</a>. 
                 </p>
             </li>
             <li>
@@ -68,7 +68,7 @@
                     Para inserir as matrizes quadradas variadas, é preciso declarar o número de seu tamanho na linha anterior à matriz. A seguir, na próxima linha de registro, é dado entrada aos números, onde cada elemento deve ser separado por um espaço. Nesse sentido, a quantidade de números deve respeitar o tamanho (N) informado para cada matriz. Após isso, para guardar mais matrizes basta repetir o esquema. Atenção, não pode haver nenhuma linha em branco nesse tipo de entrada. 
                 </p>
                 <p>
-                    Segue o exemplo de como criar um arquivo de entrada para matrizes quadradas variadas no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_2.data">input_2.data</a>.
+                    Segue o exemplo de como criar um arquivo de entrada para matrizes quadradas variadas no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/main/input_2.data">input_2.data</a>.
                 </p>
             </li>
             <li>
@@ -80,7 +80,7 @@
                     Para armazenar as matrizes dinâmicas, é preciso declarar, respectivamente, o número de linhas e colunas na linha anterior à matriz. Após isso, na próxima linha de registro, é colocado os números, onde cada elemento deve ser separado por um espaço. Lembre-se que a quantidade de números deve respeitar o tamanho (M N) informado para cada matriz. Caso seja necessário mais de uma matriz basta repetir o esquema. Atenção, esse tipo de entrada também não pode conter nenhuma linha em branca.                    
                 </p>
                 <p>
-                    Segue o exemplo de como criar um arquivo de entrada para matrizes dinâmicas no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/input_3.data">input_3.data</a>.
+                    Segue o exemplo de como criar um arquivo de entrada para matrizes dinâmicas no Arquivo DATA <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/main/input_3.data">input_3.data</a>.
                 </p>
             </li>
         </ol>
