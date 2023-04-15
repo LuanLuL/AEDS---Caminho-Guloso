@@ -144,7 +144,7 @@
         <p>
             Observe de forma mais detalhada os métodos reponsáveis por interpretar os diferentes tipos de arquivos de entrada localizados no arquivo <code>main.cpp</code>:
         </p>
-        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/main.cpp">
+        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/main/src/main.cpp">
             <p><code>ListMatrizes lerMatrizesQuadradas(string txt){...}</code></p>
             <p><code>ListMatrizes lerMatrizesQuadradasVariadas(string txt){...}</code></p>
             <p><code>ListMatrizes lerMatrizesDinamicas(string txt){...}</code></p>
@@ -182,7 +182,7 @@
         <p>
             Observe de forma mais detalhada o método reponsável por processar o caminho guloso das matrizes localizado no arquivo <code>matriz.cpp</code>:
         </p>
-        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/developer/src/Matriz.cpp">
+        <a href="https://github.com/LuanLuL/AEDS---Caminho-Guloso/blob/main/src/Matriz.cpp">
             <p><code>void Matriz::createCaminho(){..}</code></p>
         </a>
     </div>
